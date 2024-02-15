@@ -1,0 +1,3 @@
+# https://stackoverflow.com/questions/34713765/github-changes-repository-to-the-wrong-language
+*.ah2 linguist-language=AutoHotkey
+*.mjs linguist-vendored
