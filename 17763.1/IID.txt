@@ -1,0 +1,312 @@
+IID_IVirtualDesktopManagerInternal
+{f31574d6-b682-4cdc-bd56-1827860abec6}
+
+IID_IVirtualDesktop
+{ff72ffdd-be7e-43fc-9c03-ad81681e88e4}
+
+IID_IVirtualDesktopPinnedApps
+{4ce81583-1e4c-4632-a621-07a53543148f}
+
+IID_IVirtualDesktopNotification
+{c179334c-4295-40d3-bea1-c654d965605a}
+
+IID_IVirtualDesktopNotificationService
+{0cd45e71-d927-4f15-8b0a-8fef525337bf}
+
+IID_IVirtualDesktopManager
+{a5cd92ff-29be-454c-8d04-d82879fb3f1b}
+
+IVirtualDesktopManagerInternal
+??_7CVirtualDesktopManager@@6B?$ChainInterfaces@UIVirtualDesktopManagerPrivate@@UIVirtualDesktopManagerInternal@@VNil@Details@WRL@Microsoft@@V3456@V3456@V3456@V3456@V3456@V3456@V3456@@WRL@Microsoft@@@
+const CVirtualDesktopManager::`vftable'{for `Microsoft::WRL::ChainInterfaces<struct IVirtualDesktopManagerPrivate,struct IVirtualDesktopManagerInternal,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil>'}
+length: 328
+IVirtualDesktopManagerInternal.0
+?QueryInterface@?$RuntimeClassImpl@U?$RuntimeClassFlags@$02@WRL@Microsoft@@$00$00$0A@U?$ChainInterfaces@UIVirtualDesktopManagerPrivate@@UIVirtualDesktopManagerInternal@@VNil@Details@WRL@Microsoft@@V3456@V3456@V3456@V3456@V3456@V3456@V3456@@23@UISuspendableVirtualDesktopManager@@VFtmBase@23@@Details@WRL@Microsoft@@W7EAAJAEBU_GUID@@PEAPEAX@Z
+[thunk]:public: virtual long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<3>,1,1,0,struct Microsoft::WRL::ChainInterfaces<struct IVirtualDesktopManagerPrivate,struct IVirtualDesktopManagerInternal,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil>,struct ISuspendableVirtualDesktopManager,class Microsoft::WRL::FtmBase>::QueryInterface`adjustor{8}' (struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.1
+?AddRef@?$CBuffer@P6AXPEAX@ZUDefaultMarshaler@Streams@Storage@Windows@@@Streams@Storage@Windows@@W7EAAKXZ
+[thunk]:public: virtual unsigned long __cdecl Windows::Storage::Streams::CBuffer<void (__cdecl*)(void * __ptr64),struct Windows::Storage::Streams::DefaultMarshaler>::AddRef`adjustor{8}' (void) __ptr64
+IVirtualDesktopManagerInternal.2
+?Release@?$RuntimeClassImpl@U?$RuntimeClassFlags@$02@WRL@Microsoft@@$00$00$0A@U?$ChainInterfaces@UIViewGroupInternal@@UIViewGroup@@VNil@Details@WRL@Microsoft@@V3456@V3456@V3456@V3456@V3456@V3456@V3456@@23@UITitleBarRecovery@@VFtmBase@23@@Details@WRL@Microsoft@@W7EAAKXZ
+[thunk]:public: virtual unsigned long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<3>,1,1,0,struct Microsoft::WRL::ChainInterfaces<struct IViewGroupInternal,struct IViewGroup,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil>,struct ITitleBarRecovery,class Microsoft::WRL::FtmBase>::Release`adjustor{8}' (void) __ptr64
+IVirtualDesktopManagerInternal.3
+?GetCount@CVirtualDesktopManager@@UEAAJPEAI@Z
+public: virtual long __cdecl CVirtualDesktopManager::GetCount(unsigned int * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.4
+?MoveViewToDesktop@CVirtualDesktopManager@@UEAAJPEAUIApplicationView@@PEAUIVirtualDesktop@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::MoveViewToDesktop(struct IApplicationView * __ptr64,struct IVirtualDesktop * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.5
+?CanViewMoveDesktops@CVirtualDesktopManager@@UEAAJPEAUIApplicationView@@PEAH@Z
+public: virtual long __cdecl CVirtualDesktopManager::CanViewMoveDesktops(struct IApplicationView * __ptr64,int * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.6
+?GetCurrentDesktop@CVirtualDesktopManager@@UEAAJPEAPEAUIVirtualDesktop@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::GetCurrentDesktop(struct IVirtualDesktop * __ptr64 * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.7
+?GetDesktops@CVirtualDesktopManager@@UEAAJPEAPEAUIObjectArray@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::GetDesktops(struct IObjectArray * __ptr64 * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.8
+?GetAdjacentDesktop@CVirtualDesktopManager@@UEAAJPEAUIVirtualDesktop@@IPEAPEAU2@@Z
+public: virtual long __cdecl CVirtualDesktopManager::GetAdjacentDesktop(struct IVirtualDesktop * __ptr64,unsigned int,struct IVirtualDesktop * __ptr64 * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.9
+?SwitchDesktop@CVirtualDesktopManager@@UEAAJPEAUIVirtualDesktop@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::SwitchDesktop(struct IVirtualDesktop * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.10
+?CreateDesktopW@CVirtualDesktopManager@@UEAAJPEAPEAUIVirtualDesktop@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::CreateDesktopW(struct IVirtualDesktop * __ptr64 * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.11
+?RemoveDesktop@CVirtualDesktopManager@@UEAAJPEAUIVirtualDesktop@@0@Z
+public: virtual long __cdecl CVirtualDesktopManager::RemoveDesktop(struct IVirtualDesktop * __ptr64,struct IVirtualDesktop * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.12
+?FindDesktop@CVirtualDesktopManager@@UEAAJAEBU_GUID@@PEAPEAUIVirtualDesktop@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::FindDesktop(struct _GUID const & __ptr64,struct IVirtualDesktop * __ptr64 * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.13
+?GetDesktopSwitchIncludeExcludeViews@CVirtualDesktopManager@@UEAAJPEAUIVirtualDesktop@@PEAPEAUIObjectArray@@1@Z
+public: virtual long __cdecl CVirtualDesktopManager::GetDesktopSwitchIncludeExcludeViews(struct IVirtualDesktop * __ptr64,struct IObjectArray * __ptr64 * __ptr64,struct IObjectArray * __ptr64 * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.14
+?OnViewAddedInternal@CVirtualDesktopManager@@UEAAJPEAUIApplicationView@@PEAUIVirtualDesktop@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::OnViewAddedInternal(struct IApplicationView * __ptr64,struct IVirtualDesktop * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.15
+?OnViewAddedInternal@CVirtualDesktopManager@@UEAAJPEAUIApplicationView@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::OnViewAddedInternal(struct IApplicationView * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.16
+?OnPinnedViewAddedInternal@CVirtualDesktopManager@@UEAAJPEAUIApplicationView@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::OnPinnedViewAddedInternal(struct IApplicationView * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.17
+?OnViewRemovedFromSwitchersInternal@CVirtualDesktopManager@@UEAAJPEAUIApplicationView@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::OnViewRemovedFromSwitchersInternal(struct IApplicationView * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.18
+?OnViewRemovedInternal@CVirtualDesktopManager@@UEAAJPEAUIApplicationView@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::OnViewRemovedInternal(struct IApplicationView * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.19
+?SetViewCollectionInternal@CVirtualDesktopManager@@UEAAJPEAUIApplicationViewCollection@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::SetViewCollectionInternal(struct IApplicationViewCollection * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.20
+?CreateRecoveredDesktopInternal@CVirtualDesktopManager@@UEAAJAEBU_GUID@@PEAPEAUIVirtualDesktop@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::CreateRecoveredDesktopInternal(struct _GUID const & __ptr64,struct IVirtualDesktop * __ptr64 * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.21
+?RemoveDesktopForRecoveryInternal@CVirtualDesktopManager@@UEAAJPEAUIVirtualDesktop@@0@Z
+public: virtual long __cdecl CVirtualDesktopManager::RemoveDesktopForRecoveryInternal(struct IVirtualDesktop * __ptr64,struct IVirtualDesktop * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.22
+?SwitchDesktopForRecoveryInternal@CVirtualDesktopManager@@UEAAJPEAUIVirtualDesktop@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::SwitchDesktopForRecoveryInternal(struct IVirtualDesktop * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.23
+?ViewVisibilityUpdatedInternal@CVirtualDesktopManager@@UEAAJPEAUIApplicationView@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::ViewVisibilityUpdatedInternal(struct IApplicationView * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.24
+?MoveViewToDesktopNoGroupPropagateInternal@CVirtualDesktopManager@@UEAAJPEAUIApplicationView@@PEAUIVirtualDesktop@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::MoveViewToDesktopNoGroupPropagateInternal(struct IApplicationView * __ptr64,struct IVirtualDesktop * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.25
+?GetCountInternal@CVirtualDesktopManager@@UEAAJPEAI@Z
+public: virtual long __cdecl CVirtualDesktopManager::GetCountInternal(unsigned int * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.26
+?MoveViewToDesktopInternal@CVirtualDesktopManager@@UEAAJPEAUIApplicationView@@PEAUIVirtualDesktop@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::MoveViewToDesktopInternal(struct IApplicationView * __ptr64,struct IVirtualDesktop * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.27
+?MoveViewToDesktopFromApiInternal@CVirtualDesktopManager@@UEAAJPEAUIApplicationView@@PEAUIVirtualDesktop@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::MoveViewToDesktopFromApiInternal(struct IApplicationView * __ptr64,struct IVirtualDesktop * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.28
+?GetCurrentDesktopInternal@CVirtualDesktopManager@@UEAAJPEAPEAUIVirtualDesktop@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::GetCurrentDesktopInternal(struct IVirtualDesktop * __ptr64 * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.29
+?GetDesktopsInternal@CVirtualDesktopManager@@UEAAJPEAPEAUIObjectArray@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::GetDesktopsInternal(struct IObjectArray * __ptr64 * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.30
+?GetAdjacentDesktopInternal@CVirtualDesktopManager@@UEAAJPEAUIVirtualDesktop@@IPEAPEAU2@@Z
+public: virtual long __cdecl CVirtualDesktopManager::GetAdjacentDesktopInternal(struct IVirtualDesktop * __ptr64,unsigned int,struct IVirtualDesktop * __ptr64 * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.31
+?SwitchDesktopInternal@CVirtualDesktopManager@@UEAAJPEAUIVirtualDesktop@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::SwitchDesktopInternal(struct IVirtualDesktop * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.32
+?CreateDesktopInternal@CVirtualDesktopManager@@UEAAJPEAPEAUIVirtualDesktop@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::CreateDesktopInternal(struct IVirtualDesktop * __ptr64 * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.33
+?RemoveDesktopInternal@CVirtualDesktopManager@@UEAAJPEAUIVirtualDesktop@@0@Z
+public: virtual long __cdecl CVirtualDesktopManager::RemoveDesktopInternal(struct IVirtualDesktop * __ptr64,struct IVirtualDesktop * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.34
+?DetermineRelativeDirectionInternal@CVirtualDesktopManager@@UEAAJPEAUIVirtualDesktop@@0PEAI@Z
+public: virtual long __cdecl CVirtualDesktopManager::DetermineRelativeDirectionInternal(struct IVirtualDesktop * __ptr64,struct IVirtualDesktop * __ptr64,unsigned int * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.35
+?SuspendModificationsInternal@CVirtualDesktopManager@@UEAAJPEAPEAUIUnknown@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::SuspendModificationsInternal(struct IUnknown * __ptr64 * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.36
+?AreModificationsSuspendedInternal@CVirtualDesktopManager@@UEAA_NXZ
+public: virtual bool __cdecl CVirtualDesktopManager::AreModificationsSuspendedInternal(void) __ptr64
+IVirtualDesktopManagerInternal.37
+?PlaceOrphanedViewsInternal@CVirtualDesktopManager@@UEAAJPEAUIVirtualDesktop@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::PlaceOrphanedViewsInternal(struct IVirtualDesktop * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.38
+?ViewOwnerChangedInternal@CVirtualDesktopManager@@UEAAJPEAUIApplicationView@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::ViewOwnerChangedInternal(struct IApplicationView * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.39
+?MoveViewToHolographicDesktopInternal@CVirtualDesktopManager@@UEAAJPEAUIApplicationView@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::MoveViewToHolographicDesktopInternal(struct IApplicationView * __ptr64) __ptr64
+IVirtualDesktopManagerInternal.40
+?MoveViewFromHolographicDesktopInternal@CVirtualDesktopManager@@UEAAJPEAUIApplicationView@@@Z
+public: virtual long __cdecl CVirtualDesktopManager::MoveViewFromHolographicDesktopInternal(struct IApplicationView * __ptr64) __ptr64
+
+IVirtualDesktopManager
+??_7VirtualDesktopsApi@@6B@
+const VirtualDesktopsApi::`vftable'
+length: 56
+IVirtualDesktopManager.0
+?QueryInterface@?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$0A@UIVirtualDesktopManager@@UIVirtualDesktopsApiInternal@@VFtmBase@23@@Details@WRL@Microsoft@@UEAAJAEBU_GUID@@PEAPEAX@Z
+public: virtual long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<2>,1,0,0,struct IVirtualDesktopManager,struct IVirtualDesktopsApiInternal,class Microsoft::WRL::FtmBase>::QueryInterface(struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+IVirtualDesktopManager.1
+?AddRef@?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$0A@VCWRLObjectWithSite@@UIAppResizeView@@UITabletModeInputCallback@@UIApplicationViewChangeListener@@@Details@WRL@Microsoft@@UEAAKXZ
+public: virtual unsigned long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<2>,1,0,0,class CWRLObjectWithSite,struct IAppResizeView,struct ITabletModeInputCallback,struct IApplicationViewChangeListener>::AddRef(void) __ptr64
+IVirtualDesktopManager.2
+?Release@?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$0A@UIVirtualDesktopManager@@UIVirtualDesktopsApiInternal@@VFtmBase@23@@Details@WRL@Microsoft@@UEAAKXZ
+public: virtual unsigned long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<2>,1,0,0,struct IVirtualDesktopManager,struct IVirtualDesktopsApiInternal,class Microsoft::WRL::FtmBase>::Release(void) __ptr64
+IVirtualDesktopManager.3
+?IsWindowOnCurrentVirtualDesktop@VirtualDesktopsApi@@UEAAJPEAUHWND__@@PEAH@Z
+public: virtual long __cdecl VirtualDesktopsApi::IsWindowOnCurrentVirtualDesktop(struct HWND__ * __ptr64,int * __ptr64) __ptr64
+IVirtualDesktopManager.4
+?GetWindowDesktopId@VirtualDesktopsApi@@UEAAJPEAUHWND__@@PEAU_GUID@@@Z
+public: virtual long __cdecl VirtualDesktopsApi::GetWindowDesktopId(struct HWND__ * __ptr64,struct _GUID * __ptr64) __ptr64
+IVirtualDesktopManager.5
+?MoveWindowToDesktop@VirtualDesktopsApi@@UEAAJPEAUHWND__@@AEBU_GUID@@@Z
+public: virtual long __cdecl VirtualDesktopsApi::MoveWindowToDesktop(struct HWND__ * __ptr64,struct _GUID const & __ptr64) __ptr64
+IVirtualDesktopManager.6
+??_EVirtualDesktopsApi@@UEAAPEAXI@Z
+public: virtual void * __ptr64 __cdecl VirtualDesktopsApi::`vector deleting destructor'(unsigned int) __ptr64
+
+IVirtualDesktop
+??_7CVirtualDesktop@@6B?$ImplementsHelper@U?$RuntimeClassFlags@$02@WRL@Microsoft@@$00UIVirtualDesktop@@UIWeakReferenceSource@@VFtmBase@23@@Details@WRL@Microsoft@@@
+const CVirtualDesktop::`vftable'{for `Microsoft::WRL::Details::ImplementsHelper<struct Microsoft::WRL::RuntimeClassFlags<3>,1,struct IVirtualDesktop,struct IWeakReferenceSource,class Microsoft::WRL::FtmBase>'}
+length: 40
+IVirtualDesktop.0
+?QueryInterface@?$RuntimeClassImpl@U?$RuntimeClassFlags@$02@WRL@Microsoft@@$00$00$0A@UIVirtualDesktop@@VFtmBase@23@@Details@WRL@Microsoft@@W7EAAJAEBU_GUID@@PEAPEAX@Z
+[thunk]:public: virtual long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<3>,1,1,0,struct IVirtualDesktop,class Microsoft::WRL::FtmBase>::QueryInterface`adjustor{8}' (struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+IVirtualDesktop.1
+?AddRef@?$RuntimeClassImpl@U?$RuntimeClassFlags@$02@WRL@Microsoft@@$00$00$0A@UIApplicationViewOperation@@UIApplicationViewTabOperation@Tabs@ComposableShell@Internal@Windows@@VFtmBase@23@@Details@WRL@Microsoft@@W7EAAKXZ
+[thunk]:public: virtual unsigned long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<3>,1,1,0,struct IApplicationViewOperation,struct Windows::Internal::ComposableShell::Tabs::IApplicationViewTabOperation,class Microsoft::WRL::FtmBase>::AddRef`adjustor{8}' (void) __ptr64
+IVirtualDesktop.2
+?Release@?$RuntimeClassImpl@U?$RuntimeClassFlags@$02@WRL@Microsoft@@$00$00$0A@UIVirtualDesktop@@VFtmBase@23@@Details@WRL@Microsoft@@W7EAAKXZ
+[thunk]:public: virtual unsigned long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<3>,1,1,0,struct IVirtualDesktop,class Microsoft::WRL::FtmBase>::Release`adjustor{8}' (void) __ptr64
+IVirtualDesktop.3
+?IsViewVisible@CVirtualDesktop@@UEAAJPEAUIApplicationView@@PEAH@Z
+public: virtual long __cdecl CVirtualDesktop::IsViewVisible(struct IApplicationView * __ptr64,int * __ptr64) __ptr64
+IVirtualDesktop.4
+?GetID@CVirtualDesktop@@UEAAJPEAU_GUID@@@Z
+public: virtual long __cdecl CVirtualDesktop::GetID(struct _GUID * __ptr64) __ptr64
+
+IVirtualDesktopPinnedApps
+??_7VirtualPinnedAppsHandler@@6B?$ChainInterfaces@UIVirtualDesktopPinnedAppsPrivate@@UIVirtualDesktopPinnedApps@@VNil@Details@WRL@Microsoft@@V3456@V3456@V3456@V3456@V3456@V3456@V3456@@WRL@Microsoft@@@
+const VirtualPinnedAppsHandler::`vftable'{for `Microsoft::WRL::ChainInterfaces<struct IVirtualDesktopPinnedAppsPrivate,struct IVirtualDesktopPinnedApps,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil>'}
+length: 144
+IVirtualDesktopPinnedApps.0
+?QueryInterface@?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$0A@U?$ChainInterfaces@UIVirtualDesktopPinnedAppsPrivate@@UIVirtualDesktopPinnedApps@@VNil@Details@WRL@Microsoft@@V3456@V3456@V3456@V3456@V3456@V3456@V3456@@23@VFtmBase@23@@Details@WRL@Microsoft@@UEAAJAEBU_GUID@@PEAPEAX@Z
+public: virtual long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<2>,1,0,0,struct Microsoft::WRL::ChainInterfaces<struct IVirtualDesktopPinnedAppsPrivate,struct IVirtualDesktopPinnedApps,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil>,class Microsoft::WRL::FtmBase>::QueryInterface(struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+IVirtualDesktopPinnedApps.1
+?AddRef@?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$0A@UIPrivilegedDesktopOperations@@VFtmBase@23@@Details@WRL@Microsoft@@UEAAKXZ
+public: virtual unsigned long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<2>,1,0,0,struct IPrivilegedDesktopOperations,class Microsoft::WRL::FtmBase>::AddRef(void) __ptr64
+IVirtualDesktopPinnedApps.2
+?Release@?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$0A@U?$ChainInterfaces@UIVirtualDesktopPinnedAppsPrivate@@UIVirtualDesktopPinnedApps@@VNil@Details@WRL@Microsoft@@V3456@V3456@V3456@V3456@V3456@V3456@V3456@@23@VFtmBase@23@@Details@WRL@Microsoft@@UEAAKXZ
+public: virtual unsigned long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<2>,1,0,0,struct Microsoft::WRL::ChainInterfaces<struct IVirtualDesktopPinnedAppsPrivate,struct IVirtualDesktopPinnedApps,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil>,class Microsoft::WRL::FtmBase>::Release(void) __ptr64
+IVirtualDesktopPinnedApps.3
+?IsAppIdPinned@VirtualPinnedAppsHandler@@UEAAJPEBGPEAH@Z
+public: virtual long __cdecl VirtualPinnedAppsHandler::IsAppIdPinned(unsigned short const * __ptr64,int * __ptr64) __ptr64
+IVirtualDesktopPinnedApps.4
+?PinAppID@VirtualPinnedAppsHandler@@UEAAJPEBG@Z
+public: virtual long __cdecl VirtualPinnedAppsHandler::PinAppID(unsigned short const * __ptr64) __ptr64
+IVirtualDesktopPinnedApps.5
+?UnpinAppID@VirtualPinnedAppsHandler@@UEAAJPEBG@Z
+public: virtual long __cdecl VirtualPinnedAppsHandler::UnpinAppID(unsigned short const * __ptr64) __ptr64
+IVirtualDesktopPinnedApps.6
+?IsViewPinned@VirtualPinnedAppsHandler@@UEAAJPEAUIApplicationView@@PEAH@Z
+public: virtual long __cdecl VirtualPinnedAppsHandler::IsViewPinned(struct IApplicationView * __ptr64,int * __ptr64) __ptr64
+IVirtualDesktopPinnedApps.7
+?PinView@VirtualPinnedAppsHandler@@UEAAJPEAUIApplicationView@@@Z
+public: virtual long __cdecl VirtualPinnedAppsHandler::PinView(struct IApplicationView * __ptr64) __ptr64
+IVirtualDesktopPinnedApps.8
+?UnpinView@VirtualPinnedAppsHandler@@UEAAJPEAUIApplicationView@@@Z
+public: virtual long __cdecl VirtualPinnedAppsHandler::UnpinView(struct IApplicationView * __ptr64) __ptr64
+IVirtualDesktopPinnedApps.9
+?SetViewCollectionInternal@VirtualPinnedAppsHandler@@UEAAJPEAUIApplicationViewCollection@@@Z
+public: virtual long __cdecl VirtualPinnedAppsHandler::SetViewCollectionInternal(struct IApplicationViewCollection * __ptr64) __ptr64
+IVirtualDesktopPinnedApps.10
+?ViewAddedInternal@VirtualPinnedAppsHandler@@UEAAJPEAUIApplicationView@@@Z
+public: virtual long __cdecl VirtualPinnedAppsHandler::ViewAddedInternal(struct IApplicationView * __ptr64) __ptr64
+IVirtualDesktopPinnedApps.11
+?ViewAppIdChangedInternal@VirtualPinnedAppsHandler@@UEAAJPEAUIApplicationView@@@Z
+public: virtual long __cdecl VirtualPinnedAppsHandler::ViewAppIdChangedInternal(struct IApplicationView * __ptr64) __ptr64
+IVirtualDesktopPinnedApps.12
+?PinViewInternal@VirtualPinnedAppsHandler@@UEAAJPEAUIApplicationView@@@Z
+public: virtual long __cdecl VirtualPinnedAppsHandler::PinViewInternal(struct IApplicationView * __ptr64) __ptr64
+IVirtualDesktopPinnedApps.13
+?UnpinViewInternal@VirtualPinnedAppsHandler@@UEAAJPEAUIApplicationView@@PEAUIVirtualDesktop@@@Z
+public: virtual long __cdecl VirtualPinnedAppsHandler::UnpinViewInternal(struct IApplicationView * __ptr64,struct IVirtualDesktop * __ptr64) __ptr64
+IVirtualDesktopPinnedApps.14
+?PinViewNoGroupPropagateInternal@VirtualPinnedAppsHandler@@UEAAJPEAUIApplicationView@@@Z
+public: virtual long __cdecl VirtualPinnedAppsHandler::PinViewNoGroupPropagateInternal(struct IApplicationView * __ptr64) __ptr64
+IVirtualDesktopPinnedApps.15
+?UnpinViewNoGroupPropagateInternal@VirtualPinnedAppsHandler@@UEAAJPEAUIApplicationView@@PEAUIVirtualDesktop@@@Z
+public: virtual long __cdecl VirtualPinnedAppsHandler::UnpinViewNoGroupPropagateInternal(struct IApplicationView * __ptr64,struct IVirtualDesktop * __ptr64) __ptr64
+IVirtualDesktopPinnedApps.16
+?IsViewPinnedInternal@VirtualPinnedAppsHandler@@UEAAHPEAUIApplicationView@@@Z
+public: virtual int __cdecl VirtualPinnedAppsHandler::IsViewPinnedInternal(struct IApplicationView * __ptr64) __ptr64
+IVirtualDesktopPinnedApps.17
+??_EVirtualPinnedAppsHandler@@UEAAPEAXI@Z
+public: virtual void * __ptr64 __cdecl VirtualPinnedAppsHandler::`vector deleting destructor'(unsigned int) __ptr64
+
+IVirtualDesktopNotification
+??_7CVirtualDesktopNotificationsDerived@@6BIVirtualDesktopNotification@@@
+const CVirtualDesktopNotificationsDerived::`vftable'{for `IVirtualDesktopNotification'}
+length: 72
+IVirtualDesktopNotification.0
+?QueryInterface@?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$0A@V?$VirtualDesktopNotificationForwarderHelper@VCVirtualDesktopNotifications@@@@@Details@WRL@Microsoft@@W7EAAJAEBU_GUID@@PEAPEAX@Z
+[thunk]:public: virtual long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<2>,1,0,0,class VirtualDesktopNotificationForwarderHelper<class CVirtualDesktopNotifications> >::QueryInterface`adjustor{8}' (struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+IVirtualDesktopNotification.1
+?AddRef@?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$0A@V?$VirtualDesktopNotificationForwarderHelper@VCVirtualDesktopNotifications@@@@@Details@WRL@Microsoft@@W7EAAKXZ
+[thunk]:public: virtual unsigned long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<2>,1,0,0,class VirtualDesktopNotificationForwarderHelper<class CVirtualDesktopNotifications> >::AddRef`adjustor{8}' (void) __ptr64
+IVirtualDesktopNotification.2
+?Release@?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$0A@V?$VirtualDesktopNotificationForwarderHelper@VCVirtualDesktopNotifications@@@@@Details@WRL@Microsoft@@W7EAAKXZ
+[thunk]:public: virtual unsigned long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<2>,1,0,0,class VirtualDesktopNotificationForwarderHelper<class CVirtualDesktopNotifications> >::Release`adjustor{8}' (void) __ptr64
+IVirtualDesktopNotification.3
+?VirtualDesktopCreated@?$VirtualDesktopNotificationForwarderHelper@VCVirtualDesktopNotifications@@@@UEAAJPEAUIVirtualDesktop@@@Z
+public: virtual long __cdecl VirtualDesktopNotificationForwarderHelper<class CVirtualDesktopNotifications>::VirtualDesktopCreated(struct IVirtualDesktop * __ptr64) __ptr64
+IVirtualDesktopNotification.4
+?VirtualDesktopDestroyBegin@?$VirtualDesktopNotificationForwarderHelper@VCVirtualDesktopNotifications@@@@UEAAJPEAUIVirtualDesktop@@0@Z
+public: virtual long __cdecl VirtualDesktopNotificationForwarderHelper<class CVirtualDesktopNotifications>::VirtualDesktopDestroyBegin(struct IVirtualDesktop * __ptr64,struct IVirtualDesktop * __ptr64) __ptr64
+IVirtualDesktopNotification.5
+?VirtualDesktopDestroyFailed@?$VirtualDesktopNotificationForwarderHelper@VCVirtualDesktopNotifications@@@@UEAAJPEAUIVirtualDesktop@@0@Z
+public: virtual long __cdecl VirtualDesktopNotificationForwarderHelper<class CVirtualDesktopNotifications>::VirtualDesktopDestroyFailed(struct IVirtualDesktop * __ptr64,struct IVirtualDesktop * __ptr64) __ptr64
+IVirtualDesktopNotification.6
+?VirtualDesktopDestroyed@?$VirtualDesktopNotificationForwarderHelper@VCVirtualDesktopNotifications@@@@UEAAJPEAUIVirtualDesktop@@0@Z
+public: virtual long __cdecl VirtualDesktopNotificationForwarderHelper<class CVirtualDesktopNotifications>::VirtualDesktopDestroyed(struct IVirtualDesktop * __ptr64,struct IVirtualDesktop * __ptr64) __ptr64
+IVirtualDesktopNotification.7
+?ViewVirtualDesktopChanged@?$VirtualDesktopNotificationForwarderHelper@VCVirtualDesktopNotifications@@@@UEAAJPEAUIApplicationView@@@Z
+public: virtual long __cdecl VirtualDesktopNotificationForwarderHelper<class CVirtualDesktopNotifications>::ViewVirtualDesktopChanged(struct IApplicationView * __ptr64) __ptr64
+IVirtualDesktopNotification.8
+?CurrentVirtualDesktopChanged@?$VirtualDesktopNotificationForwarderHelper@VCVirtualDesktopNotifications@@@@UEAAJPEAUIVirtualDesktop@@0@Z
+public: virtual long __cdecl VirtualDesktopNotificationForwarderHelper<class CVirtualDesktopNotifications>::CurrentVirtualDesktopChanged(struct IVirtualDesktop * __ptr64,struct IVirtualDesktop * __ptr64) __ptr64
+
+IVirtualDesktopNotificationService
+??_7CVirtualDesktopNotificationsDerived@@6B@
+const CVirtualDesktopNotificationsDerived::`vftable'
+length: 64
+IVirtualDesktopNotificationService.0
+?QueryInterface@?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$0A@V?$VirtualDesktopNotificationForwarderHelper@VCVirtualDesktopNotifications@@@@@Details@WRL@Microsoft@@UEAAJAEBU_GUID@@PEAPEAX@Z
+public: virtual long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<2>,1,0,0,class VirtualDesktopNotificationForwarderHelper<class CVirtualDesktopNotifications> >::QueryInterface(struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+IVirtualDesktopNotificationService.1
+?AddRef@?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$0A@VCImmersiveShellComponentWithSite@@U?$ChainInterfaces@UITabletModeViewManagerInternal@@UITabletModeViewManager@@VNil@Details@WRL@Microsoft@@V3456@V3456@V3456@V3456@V3456@V3456@V3456@@23@UIEdgeUiTouchInvocation@@UIEdgeUiMouseInvocation@@@Details@WRL@Microsoft@@UEAAKXZ
+public: virtual unsigned long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<2>,1,0,0,class CImmersiveShellComponentWithSite,struct Microsoft::WRL::ChainInterfaces<struct ITabletModeViewManagerInternal,struct ITabletModeViewManager,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil>,struct IEdgeUiTouchInvocation,struct IEdgeUiMouseInvocation>::AddRef(void) __ptr64
+IVirtualDesktopNotificationService.2
+?Release@?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$0A@V?$VirtualDesktopNotificationForwarderHelper@VCVirtualDesktopNotifications@@@@@Details@WRL@Microsoft@@UEAAKXZ
+public: virtual unsigned long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<2>,1,0,0,class VirtualDesktopNotificationForwarderHelper<class CVirtualDesktopNotifications> >::Release(void) __ptr64
+IVirtualDesktopNotificationService.3
+?Register@CVirtualDesktopNotifications@@UEAAJPEAUIVirtualDesktopNotification@@PEAK@Z
+public: virtual long __cdecl CVirtualDesktopNotifications::Register(struct IVirtualDesktopNotification * __ptr64,unsigned long * __ptr64) __ptr64
+IVirtualDesktopNotificationService.4
+?Unregister@CVirtualDesktopNotifications@@UEAAJK@Z
+public: virtual long __cdecl CVirtualDesktopNotifications::Unregister(unsigned long) __ptr64
+IVirtualDesktopNotificationService.5
+?RegisterInternal@CVirtualDesktopNotifications@@UEAAJPEAUIVirtualDesktopNotification@@PEAK@Z
+public: virtual long __cdecl CVirtualDesktopNotifications::RegisterInternal(struct IVirtualDesktopNotification * __ptr64,unsigned long * __ptr64) __ptr64
+IVirtualDesktopNotificationService.6
+?UnregisterInternal@CVirtualDesktopNotifications@@UEAAJK@Z
+public: virtual long __cdecl CVirtualDesktopNotifications::UnregisterInternal(unsigned long) __ptr64
+IVirtualDesktopNotificationService.7
+??_E?$RuntimeClass@U?$RuntimeClassFlags@$01@WRL@Microsoft@@V?$VirtualDesktopNotificationForwarderHelper@VCVirtualDesktopNotifications@@@@@WRL@Microsoft@@UEAAPEAXI@Z
+public: virtual void * __ptr64 __cdecl Microsoft::WRL::RuntimeClass<struct Microsoft::WRL::RuntimeClassFlags<2>,class VirtualDesktopNotificationForwarderHelper<class CVirtualDesktopNotifications> >::`vector deleting destructor'(unsigned int) __ptr64
+

@@ -1,0 +1,521 @@
+IID_IObjectArray
+{92ca9dcd-5622-4bba-a805-5e9f541bd8c9}
+
+IID_IApplicationViewCollection
+{1841c6d7-4f9d-42c0-af41-8747538f10e5}
+
+IID_IApplicationView
+{372e1d3b-38d3-42e4-a15b-8ab2b178f513}
+
+IObjectArray
+??_7ObjectArray@Discover@PenWorkspace@@6B?$Selector@U?$ImplementsHelper@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00UIObjectArray@@@Details@WRL@Microsoft@@U?$ImplementsHelper@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$0A@U?$ImplementsMarker@VFtmBase@WRL@Microsoft@@@Details@23@UIObjectArray@@@234@@Details@WRL@Microsoft@@@
+const PenWorkspace::Discover::ObjectArray::`vftable'{for `Microsoft::WRL::Details::Selector<struct Microsoft::WRL::Details::ImplementsHelper<struct Microsoft::WRL::RuntimeClassFlags<2>,1,struct IObjectArray>,struct Microsoft::WRL::Details::ImplementsHelper<struct Microsoft::WRL::RuntimeClassFlags<2>,0,struct Microsoft::WRL::Details::ImplementsMarker<class Microsoft::WRL::FtmBase>,struct IObjectArray> >'}
+length: 40
+IObjectArray.0
+?QueryInterface@?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$0A@VFtmBase@23@UIObjectArray@@@Details@WRL@Microsoft@@WCA@EAAJAEBU_GUID@@PEAPEAX@Z
+[thunk]:public: virtual long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<2>,1,0,0,class Microsoft::WRL::FtmBase,struct IObjectArray>::QueryInterface`adjustor{32}' (struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+IObjectArray.1
+?AddRef@?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$0A@VFtmBase@23@UIPenWorkspaceScreenCaptureBroker@@@Details@WRL@Microsoft@@WCA@EAAKXZ
+[thunk]:public: virtual unsigned long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<2>,1,0,0,class Microsoft::WRL::FtmBase,struct IPenWorkspaceScreenCaptureBroker>::AddRef`adjustor{32}' (void) __ptr64
+IObjectArray.2
+?Release@?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$0A@VFtmBase@23@UIObjectArray@@@Details@WRL@Microsoft@@WCA@EAAKXZ
+[thunk]:public: virtual unsigned long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<2>,1,0,0,class Microsoft::WRL::FtmBase,struct IObjectArray>::Release`adjustor{32}' (void) __ptr64
+IObjectArray.3
+?GetCount@ObjectArray@Discover@PenWorkspace@@UEAAJPEAI@Z
+public: virtual long __cdecl PenWorkspace::Discover::ObjectArray::GetCount(unsigned int * __ptr64) __ptr64
+IObjectArray.4
+?GetAt@ObjectArray@Discover@PenWorkspace@@UEAAJIAEBU_GUID@@PEAPEAX@Z
+public: virtual long __cdecl PenWorkspace::Discover::ObjectArray::GetAt(unsigned int,struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+
+IApplicationViewCollection
+??_7CApplicationViewManager@@6B?$Selector@U?$ImplementsHelper@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00U?$ImplementsMarker@U?$Implements@U?$RuntimeClassFlags@$01@WRL@Microsoft@@U?$ChainInterfaces@UIApplicationViewCollectionManagement@@UIApplicationViewCollection@@VNil@Details@WRL@Microsoft@@V3456@V3456@V3456@V3456@V3456@V3456@V3456@@23@UIApplicationViewCollectionTestHook@@UIApplicationViewSwitcher@@UIApplicationViewFlashingNotification@@UIWindowManagementConstraintsEvents@@UIImmersiveApplicationNotification@@UIEnterpriseIdChangeNotification@@UIApplicationViewStateControl@@UIWindowOccludedChangeListener@@@WRL@Microsoft@@@Details@23@@Details@WRL@Microsoft@@U?$ImplementsHelper@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00U?$ImplementsMarker@VCImmersiveShellComponentWithGITSite@@@Details@23@U?$Implements@U?$RuntimeClassFlags@$01@WRL@Microsoft@@U?$ChainInterfaces@UIApplicationViewCollectionManagement@@UIApplicationViewCollection@@VNil@Details@WRL@Microsoft@@V3456@V3456@V3456@V3456@V3456@V3456@V3456@@23@UIApplicationViewCollectionTestHook@@UIApplicationViewSwitcher@@UIApplicationViewFlashingNotification@@UIWindowManagementConstraintsEvents@@UIImmersiveApplicationNotification@@UIEnterpriseIdChangeNotification@@UIApplicationViewStateControl@@UIWindowOccludedChangeListener@@@23@@234@@Details@WRL@Microsoft@@@
+const CApplicationViewManager::`vftable'{for `Microsoft::WRL::Details::Selector<struct Microsoft::WRL::Details::ImplementsHelper<struct Microsoft::WRL::RuntimeClassFlags<2>,1,struct Microsoft::WRL::Details::ImplementsMarker<struct Microsoft::WRL::Implements<struct Microsoft::WRL::RuntimeClassFlags<2>,struct Microsoft::WRL::ChainInterfaces<struct IApplicationViewCollectionManagement,struct IApplicationViewCollection,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil>,struct IApplicationViewCollectionTestHook,struct IApplicationViewSwitcher,struct IApplicationViewFlashingNotification,struct IWindowManagementConstraintsEvents,struct IImmersiveApplicationNotification,struct IEnterpriseIdChangeNotification,struct IApplicationViewStateControl,struct IWindowOccludedChangeListener> > >,struct Microsoft::WRL::Details::ImplementsHelper<struct Microsoft::WRL::RuntimeClassFlags<2>,1,struct Microsoft::WRL::Details::ImplementsMarker<class CImmersiveShellComponentWithGITSite>,struct Microsoft::WRL::Implements<struct Microsoft::WRL::RuntimeClassFlags<2>,struct Microsoft::WRL::ChainInterfaces<struct IApplicationViewCollectionManagement,struct IApplicationViewCollection,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil>,struct IApplicationViewCollectionTestHook,struct IApplicationViewSwitcher,struct IApplicationViewFlashingNotification,struct IWindowManagementConstraintsEvents,struct IImmersiveApplicationNotification,struct IEnterpriseIdChangeNotification,struct IApplicationViewStateControl,struct IWindowOccludedChangeListener> > >'}
+length: 176
+IApplicationViewCollection.0
+?QueryInterface@?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$0A@VFtmBase@23@VCImmersiveShellComponentWithGITSite@@U?$Implements@U?$RuntimeClassFlags@$01@WRL@Microsoft@@U?$ChainInterfaces@UIApplicationViewCollectionManagement@@UIApplicationViewCollection@@VNil@Details@WRL@Microsoft@@V3456@V3456@V3456@V3456@V3456@V3456@V3456@@23@UIApplicationViewCollectionTestHook@@UIApplicationViewSwitcher@@UIApplicationViewFlashingNotification@@UIWindowManagementConstraintsEvents@@UIImmersiveApplicationNotification@@UIEnterpriseIdChangeNotification@@UIApplicationViewStateControl@@UIWindowOccludedChangeListener@@@23@@Details@WRL@Microsoft@@WII@EAAJAEBU_GUID@@PEAPEAX@Z
+[thunk]:public: virtual long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<2>,1,0,0,class Microsoft::WRL::FtmBase,class CImmersiveShellComponentWithGITSite,struct Microsoft::WRL::Implements<struct Microsoft::WRL::RuntimeClassFlags<2>,struct Microsoft::WRL::ChainInterfaces<struct IApplicationViewCollectionManagement,struct IApplicationViewCollection,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil>,struct IApplicationViewCollectionTestHook,struct IApplicationViewSwitcher,struct IApplicationViewFlashingNotification,struct IWindowManagementConstraintsEvents,struct IImmersiveApplicationNotification,struct IEnterpriseIdChangeNotification,struct IApplicationViewStateControl,struct IWindowOccludedChangeListener> >::QueryInterface`adjustor{136}' (struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+IApplicationViewCollection.1
+?AddRef@?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$0A@VFtmBase@23@VCImmersiveShellComponentWithGITSite@@U?$Implements@U?$RuntimeClassFlags@$01@WRL@Microsoft@@U?$ChainInterfaces@UIApplicationViewCollectionManagement@@UIApplicationViewCollection@@VNil@Details@WRL@Microsoft@@V3456@V3456@V3456@V3456@V3456@V3456@V3456@@23@UIApplicationViewCollectionTestHook@@UIApplicationViewSwitcher@@UIApplicationViewFlashingNotification@@UIWindowManagementConstraintsEvents@@UIImmersiveApplicationNotification@@UIEnterpriseIdChangeNotification@@UIApplicationViewStateControl@@UIWindowOccludedChangeListener@@@23@@Details@WRL@Microsoft@@WII@EAAKXZ
+[thunk]:public: virtual unsigned long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<2>,1,0,0,class Microsoft::WRL::FtmBase,class CImmersiveShellComponentWithGITSite,struct Microsoft::WRL::Implements<struct Microsoft::WRL::RuntimeClassFlags<2>,struct Microsoft::WRL::ChainInterfaces<struct IApplicationViewCollectionManagement,struct IApplicationViewCollection,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil>,struct IApplicationViewCollectionTestHook,struct IApplicationViewSwitcher,struct IApplicationViewFlashingNotification,struct IWindowManagementConstraintsEvents,struct IImmersiveApplicationNotification,struct IEnterpriseIdChangeNotification,struct IApplicationViewStateControl,struct IWindowOccludedChangeListener> >::AddRef`adjustor{136}' (void) __ptr64
+IApplicationViewCollection.2
+?Release@?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$0A@VFtmBase@23@VCImmersiveShellComponentWithGITSite@@U?$Implements@U?$RuntimeClassFlags@$01@WRL@Microsoft@@U?$ChainInterfaces@UIApplicationViewCollectionManagement@@UIApplicationViewCollection@@VNil@Details@WRL@Microsoft@@V3456@V3456@V3456@V3456@V3456@V3456@V3456@@23@UIApplicationViewCollectionTestHook@@UIApplicationViewSwitcher@@UIApplicationViewFlashingNotification@@UIWindowManagementConstraintsEvents@@UIImmersiveApplicationNotification@@UIEnterpriseIdChangeNotification@@UIApplicationViewStateControl@@UIWindowOccludedChangeListener@@@23@@Details@WRL@Microsoft@@WII@EAAKXZ
+[thunk]:public: virtual unsigned long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<2>,1,0,0,class Microsoft::WRL::FtmBase,class CImmersiveShellComponentWithGITSite,struct Microsoft::WRL::Implements<struct Microsoft::WRL::RuntimeClassFlags<2>,struct Microsoft::WRL::ChainInterfaces<struct IApplicationViewCollectionManagement,struct IApplicationViewCollection,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil,class Microsoft::WRL::Details::Nil>,struct IApplicationViewCollectionTestHook,struct IApplicationViewSwitcher,struct IApplicationViewFlashingNotification,struct IWindowManagementConstraintsEvents,struct IImmersiveApplicationNotification,struct IEnterpriseIdChangeNotification,struct IApplicationViewStateControl,struct IWindowOccludedChangeListener> >::Release`adjustor{136}' (void) __ptr64
+IApplicationViewCollection.3
+?GetViews@CApplicationViewManager@@UEAAJPEAPEAUIObjectArray@@@Z
+public: virtual long __cdecl CApplicationViewManager::GetViews(struct IObjectArray * __ptr64 * __ptr64) __ptr64
+IApplicationViewCollection.4
+?GetViewsByZOrder@CApplicationViewManager@@UEAAJPEAPEAUIObjectArray@@@Z
+public: virtual long __cdecl CApplicationViewManager::GetViewsByZOrder(struct IObjectArray * __ptr64 * __ptr64) __ptr64
+IApplicationViewCollection.5
+?GetViewsByAppUserModelId@CApplicationViewManager@@UEAAJPEBGPEAPEAUIObjectArray@@@Z
+public: virtual long __cdecl CApplicationViewManager::GetViewsByAppUserModelId(unsigned short const * __ptr64,struct IObjectArray * __ptr64 * __ptr64) __ptr64
+IApplicationViewCollection.6
+?GetViewForHwnd@CApplicationViewManager@@UEAAJPEAUHWND__@@PEAPEAUIApplicationView@@@Z
+public: virtual long __cdecl CApplicationViewManager::GetViewForHwnd(struct HWND__ * __ptr64,struct IApplicationView * __ptr64 * __ptr64) __ptr64
+IApplicationViewCollection.7
+?GetViewForApplication@CApplicationViewManager@@UEAAJPEAUIImmersiveApplication@@PEAPEAUIApplicationView@@@Z
+public: virtual long __cdecl CApplicationViewManager::GetViewForApplication(struct IImmersiveApplication * __ptr64,struct IApplicationView * __ptr64 * __ptr64) __ptr64
+IApplicationViewCollection.8
+?GetViewForAppUserModelId@CApplicationViewManager@@UEAAJPEBGPEAPEAUIApplicationView@@@Z
+public: virtual long __cdecl CApplicationViewManager::GetViewForAppUserModelId(unsigned short const * __ptr64,struct IApplicationView * __ptr64 * __ptr64) __ptr64
+IApplicationViewCollection.9
+?GetViewInFocus@CApplicationViewManager@@UEAAJPEAPEAUIApplicationView@@@Z
+public: virtual long __cdecl CApplicationViewManager::GetViewInFocus(struct IApplicationView * __ptr64 * __ptr64) __ptr64
+IApplicationViewCollection.10
+?TryGetLastActiveVisibleView@CApplicationViewManager@@UEAAJPEAPEAUIApplicationView@@@Z
+public: virtual long __cdecl CApplicationViewManager::TryGetLastActiveVisibleView(struct IApplicationView * __ptr64 * __ptr64) __ptr64
+IApplicationViewCollection.11
+?RefreshCollection@CApplicationViewManager@@UEAAJXZ
+public: virtual long __cdecl CApplicationViewManager::RefreshCollection(void) __ptr64
+IApplicationViewCollection.12
+?RegisterForApplicationViewChanges@CApplicationViewManager@@UEAAJPEAUIApplicationViewChangeListener@@PEAK@Z
+public: virtual long __cdecl CApplicationViewManager::RegisterForApplicationViewChanges(struct IApplicationViewChangeListener * __ptr64,unsigned long * __ptr64) __ptr64
+IApplicationViewCollection.13
+?UnregisterForApplicationViewChanges@CApplicationViewManager@@UEAAJK@Z
+public: virtual long __cdecl CApplicationViewManager::UnregisterForApplicationViewChanges(unsigned long) __ptr64
+IApplicationViewCollection.14
+?AddWin32ApplicationView@CApplicationViewManager@@UEAAJPEAUIClassicWindowExternal@@PEAPEAUIApplicationView@@@Z
+public: virtual long __cdecl CApplicationViewManager::AddWin32ApplicationView(struct IClassicWindowExternal * __ptr64,struct IApplicationView * __ptr64 * __ptr64) __ptr64
+IApplicationViewCollection.15
+?AddWinRTApplicationView@CApplicationViewManager@@UEAAJPEAUIImmersiveApplication@@PEAUIUnknown@@@Z
+public: virtual long __cdecl CApplicationViewManager::AddWinRTApplicationView(struct IImmersiveApplication * __ptr64,struct IUnknown * __ptr64) __ptr64
+IApplicationViewCollection.16
+?AddApplicationView@CApplicationViewManager@@UEAAJPEAUIApplicationView@@@Z
+public: virtual long __cdecl CApplicationViewManager::AddApplicationView(struct IApplicationView * __ptr64) __ptr64
+IApplicationViewCollection.17
+?RemoveApplicationView@CApplicationViewManager@@UEAAJPEAUIApplicationView@@W4REMOVE_APPLICATION_VIEW_OPTIONS@@@Z
+public: virtual long __cdecl CApplicationViewManager::RemoveApplicationView(struct IApplicationView * __ptr64,enum REMOVE_APPLICATION_VIEW_OPTIONS) __ptr64
+IApplicationViewCollection.18
+?SetViewInFocus@CApplicationViewManager@@UEAAJPEAUIApplicationView@@@Z
+public: virtual long __cdecl CApplicationViewManager::SetViewInFocus(struct IApplicationView * __ptr64) __ptr64
+IApplicationViewCollection.19
+?SetViewPendingFocus@CApplicationViewManager@@UEAAJPEAUIApplicationView@@@Z
+public: virtual long __cdecl CApplicationViewManager::SetViewPendingFocus(struct IApplicationView * __ptr64) __ptr64
+IApplicationViewCollection.20
+?HandleWindowReplaced@CApplicationViewManager@@UEAAJPEAUHWND__@@0@Z
+public: virtual long __cdecl CApplicationViewManager::HandleWindowReplaced(struct HWND__ * __ptr64,struct HWND__ * __ptr64) __ptr64
+IApplicationViewCollection.21
+?RaiseApplicationViewChanged@CApplicationViewManager@@UEAAJPEAUIApplicationView@@W4APPLICATION_VIEW_CHANGE@@PEAUIUnknown@@@Z
+public: virtual long __cdecl CApplicationViewManager::RaiseApplicationViewChanged(struct IApplicationView * __ptr64,enum APPLICATION_VIEW_CHANGE,struct IUnknown * __ptr64) __ptr64
+
+IApplicationView
+??_7CWin32ApplicationView@@6BIApplicationView@@@
+const CWin32ApplicationView::`vftable'{for `IApplicationView'}
+length: 536
+IApplicationView.0
+?QueryInterface@CWin32ApplicationView@@UEAAJAEBU_GUID@@PEAPEAX@Z
+public: virtual long __cdecl CWin32ApplicationView::QueryInterface(struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+IApplicationView.1
+?AddRef@?$RuntimeClassImpl@U?$RuntimeClassFlags@$02@WRL@Microsoft@@$00$00$0A@VCApplicationViewBase@@UIWin32ApplicationView@@UIAppSizeConstraintsCallback@@VFtmBase@23@@Details@WRL@Microsoft@@UEAAKXZ
+public: virtual unsigned long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<3>,1,1,0,class CApplicationViewBase,struct IWin32ApplicationView,struct IAppSizeConstraintsCallback,class Microsoft::WRL::FtmBase>::AddRef(void) __ptr64
+IApplicationView.2
+?Release@?$RuntimeClassImpl@U?$RuntimeClassFlags@$02@WRL@Microsoft@@$00$00$0A@VCApplicationViewBase@@UIWin32ApplicationView@@UIAppSizeConstraintsCallback@@VFtmBase@23@@Details@WRL@Microsoft@@UEAAKXZ
+public: virtual unsigned long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<3>,1,1,0,class CApplicationViewBase,struct IWin32ApplicationView,struct IAppSizeConstraintsCallback,class Microsoft::WRL::FtmBase>::Release(void) __ptr64
+IApplicationView.3
+?GetIids@?$RuntimeClassImpl@U?$RuntimeClassFlags@$02@WRL@Microsoft@@$00$00$0A@VCApplicationViewBase@@UIWin32ApplicationView@@UIAppSizeConstraintsCallback@@VFtmBase@23@@Details@WRL@Microsoft@@UEAAJPEAKPEAPEAU_GUID@@@Z
+public: virtual long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<3>,1,1,0,class CApplicationViewBase,struct IWin32ApplicationView,struct IAppSizeConstraintsCallback,class Microsoft::WRL::FtmBase>::GetIids(unsigned long * __ptr64,struct _GUID * __ptr64 * __ptr64) __ptr64
+IApplicationView.4
+?GetRuntimeClassName@?$RuntimeClassImpl@U?$RuntimeClassFlags@$02@WRL@Microsoft@@$00$00$0A@VCWRLObjectWithSite@@UIStartExperienceManager@Experience@Shell@Internal@Windows@@UIImmersiveWindowMessageNotification@@UIClosable@Foundation@9@UIDWMStoryboardListener@@UIInputHostLayoutChanges@@@Details@WRL@Microsoft@@UEAAJPEAPEAUHSTRING__@@@Z
+public: virtual long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<3>,1,1,0,class CWRLObjectWithSite,struct Windows::Internal::Shell::Experience::IStartExperienceManager,struct IImmersiveWindowMessageNotification,struct Windows::Foundation::IClosable,struct IDWMStoryboardListener,struct IInputHostLayoutChanges>::GetRuntimeClassName(struct HSTRING__ * __ptr64 * __ptr64) __ptr64
+IApplicationView.5
+?GetTrustLevel@?$RuntimeClassImpl@U?$RuntimeClassFlags@$02@WRL@Microsoft@@$00$00$0A@UIObjectProvider@@VFtmBase@23@@Details@WRL@Microsoft@@UEAAJPEAW4TrustLevel@@@Z
+public: virtual long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<3>,1,1,0,struct IObjectProvider,class Microsoft::WRL::FtmBase>::GetTrustLevel(enum TrustLevel * __ptr64) __ptr64
+IApplicationView.6
+?SetFocus@CWin32ApplicationView@@UEAAJXZ
+public: virtual long __cdecl CWin32ApplicationView::SetFocus(void) __ptr64
+IApplicationView.7
+?SwitchTo@CWin32ApplicationView@@UEAAJXZ
+public: virtual long __cdecl CWin32ApplicationView::SwitchTo(void) __ptr64
+IApplicationView.8
+?TryInvokeBack@CWin32ApplicationView@@UEAAJPEAUIAsyncCallback@@@Z
+public: virtual long __cdecl CWin32ApplicationView::TryInvokeBack(struct IAsyncCallback * __ptr64) __ptr64
+IApplicationView.9
+?GetThumbnailWindow@CWin32ApplicationView@@UEAAJPEAPEAUHWND__@@@Z
+public: virtual long __cdecl CWin32ApplicationView::GetThumbnailWindow(struct HWND__ * __ptr64 * __ptr64) __ptr64
+IApplicationView.10
+?GetMonitor@CWin32ApplicationView@@UEAAJPEAPEAUIImmersiveMonitor@@@Z
+public: virtual long __cdecl CWin32ApplicationView::GetMonitor(struct IImmersiveMonitor * __ptr64 * __ptr64) __ptr64
+IApplicationView.11
+?GetVisibility@CWin32ApplicationView@@UEAAJPEAH@Z
+public: virtual long __cdecl CWin32ApplicationView::GetVisibility(int * __ptr64) __ptr64
+IApplicationView.12
+?SetCloak@CApplicationViewBase@@UEAAJW4APPLICATION_VIEW_CLOAK_TYPE@@H@Z
+public: virtual long __cdecl CApplicationViewBase::SetCloak(enum APPLICATION_VIEW_CLOAK_TYPE,int) __ptr64
+IApplicationView.13
+?GetPosition@CWin32ApplicationView@@UEAAJAEBU_GUID@@PEAPEAX@Z
+public: virtual long __cdecl CWin32ApplicationView::GetPosition(struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+IApplicationView.14
+?SetPosition@CWin32ApplicationView@@UEAAJPEAUIApplicationViewPosition@@@Z
+public: virtual long __cdecl CWin32ApplicationView::SetPosition(struct IApplicationViewPosition * __ptr64) __ptr64
+IApplicationView.15
+?InsertAfterWindow@CApplicationViewBase@@UEAAJPEAUHWND__@@@Z
+public: virtual long __cdecl CApplicationViewBase::InsertAfterWindow(struct HWND__ * __ptr64) __ptr64
+IApplicationView.16
+?GetExtendedFramePosition@CWin32ApplicationView@@UEAAJPEAUtagRECT@@@Z
+public: virtual long __cdecl CWin32ApplicationView::GetExtendedFramePosition(struct tagRECT * __ptr64) __ptr64
+IApplicationView.17
+?GetAppUserModelId@CWin32ApplicationView@@UEAAJPEAPEAG@Z
+public: virtual long __cdecl CWin32ApplicationView::GetAppUserModelId(unsigned short * __ptr64 * __ptr64) __ptr64
+IApplicationView.18
+?SetAppUserModelId@CWin32ApplicationView@@UEAAJPEBG@Z
+public: virtual long __cdecl CWin32ApplicationView::SetAppUserModelId(unsigned short const * __ptr64) __ptr64
+IApplicationView.19
+?IsEqualByAppUserModelId@CWin32ApplicationView@@UEAAJPEBGPEAH@Z
+public: virtual long __cdecl CWin32ApplicationView::IsEqualByAppUserModelId(unsigned short const * __ptr64,int * __ptr64) __ptr64
+IApplicationView.20
+?GetViewState@CWinRTApplicationView@@UEAAJPEAI@Z
+public: virtual long __cdecl CWinRTApplicationView::GetViewState(unsigned int * __ptr64) __ptr64
+IApplicationView.21
+?SetViewState@CWin32ApplicationView@@UEAAJI@Z
+public: virtual long __cdecl CWin32ApplicationView::SetViewState(unsigned int) __ptr64
+IApplicationView.22
+?GetNeediness@CApplicationViewBase@@UEAAJPEAH@Z
+public: virtual long __cdecl CApplicationViewBase::GetNeediness(int * __ptr64) __ptr64
+IApplicationView.23
+?GetLastActivationTimestamp@CWin32ApplicationView@@UEAAJPEA_K@Z
+public: virtual long __cdecl CWin32ApplicationView::GetLastActivationTimestamp(unsigned __int64 * __ptr64) __ptr64
+IApplicationView.24
+?SetLastActivationTimestamp@CWin32ApplicationView@@UEAAJ_K@Z
+public: virtual long __cdecl CWin32ApplicationView::SetLastActivationTimestamp(unsigned __int64) __ptr64
+IApplicationView.25
+?GetVirtualDesktopId@CApplicationViewBase@@UEAAJPEAU_GUID@@@Z
+public: virtual long __cdecl CApplicationViewBase::GetVirtualDesktopId(struct _GUID * __ptr64) __ptr64
+IApplicationView.26
+?SetVirtualDesktopId@CApplicationViewBase@@UEAAJAEBU_GUID@@@Z
+public: virtual long __cdecl CApplicationViewBase::SetVirtualDesktopId(struct _GUID const & __ptr64) __ptr64
+IApplicationView.27
+?GetShowInSwitchers@CWin32ApplicationView@@UEAAJPEAH@Z
+public: virtual long __cdecl CWin32ApplicationView::GetShowInSwitchers(int * __ptr64) __ptr64
+IApplicationView.28
+?SetShowInSwitchers@CWin32ApplicationView@@UEAAJH@Z
+public: virtual long __cdecl CWin32ApplicationView::SetShowInSwitchers(int) __ptr64
+IApplicationView.29
+?GetScaleFactor@CWin32ApplicationView@@UEAAJPEAI@Z
+public: virtual long __cdecl CWin32ApplicationView::GetScaleFactor(unsigned int * __ptr64) __ptr64
+IApplicationView.30
+?CanReceiveInput@CWin32ApplicationView@@UEAAJPEAH@Z
+public: virtual long __cdecl CWin32ApplicationView::CanReceiveInput(int * __ptr64) __ptr64
+IApplicationView.31
+?GetCompatibilityPolicyType@CApplicationViewBase@@UEAAJPEAW4APPLICATION_VIEW_COMPATIBILITY_POLICY@@@Z
+public: virtual long __cdecl CApplicationViewBase::GetCompatibilityPolicyType(enum APPLICATION_VIEW_COMPATIBILITY_POLICY * __ptr64) __ptr64
+IApplicationView.32
+?SetCompatibilityPolicyType@CApplicationViewBase@@UEAAJW4APPLICATION_VIEW_COMPATIBILITY_POLICY@@@Z
+public: virtual long __cdecl CApplicationViewBase::SetCompatibilityPolicyType(enum APPLICATION_VIEW_COMPATIBILITY_POLICY) __ptr64
+IApplicationView.33
+?GetPositionerPriority@CApplicationViewBase@@UEAAJPEAPEAUIShellPositionerPriority@@@Z
+public: virtual long __cdecl CApplicationViewBase::GetPositionerPriority(struct IShellPositionerPriority * __ptr64 * __ptr64) __ptr64
+IApplicationView.34
+?SetPositionerPriority@CApplicationViewBase@@UEAAJPEAUIShellPositionerPriority@@@Z
+public: virtual long __cdecl CApplicationViewBase::SetPositionerPriority(struct IShellPositionerPriority * __ptr64) __ptr64
+IApplicationView.35
+?GetSizeConstraints@CApplicationViewBase@@UEAAJPEAUIImmersiveMonitor@@PEAUtagSIZE@@1@Z
+public: virtual long __cdecl CApplicationViewBase::GetSizeConstraints(struct IImmersiveMonitor * __ptr64,struct tagSIZE * __ptr64,struct tagSIZE * __ptr64) __ptr64
+IApplicationView.36
+?GetSizeConstraintsForDpi@CWin32ApplicationView@@UEAAJIPEAUtagSIZE@@0@Z
+public: virtual long __cdecl CWin32ApplicationView::GetSizeConstraintsForDpi(unsigned int,struct tagSIZE * __ptr64,struct tagSIZE * __ptr64) __ptr64
+IApplicationView.37
+?SetSizeConstraintsForDpi@CWin32ApplicationView@@UEAAJPEBIPEBUtagSIZE@@1@Z
+public: virtual long __cdecl CWin32ApplicationView::SetSizeConstraintsForDpi(unsigned int const * __ptr64,struct tagSIZE const * __ptr64,struct tagSIZE const * __ptr64) __ptr64
+IApplicationView.38
+?QuerySizeConstraintsFromApp@CWin32ApplicationView@@UEAAJXZ
+public: virtual long __cdecl CWin32ApplicationView::QuerySizeConstraintsFromApp(void) __ptr64
+IApplicationView.39
+?OnMinSizePreferencesUpdated@CWin32ApplicationView@@UEAAJPEAUHWND__@@@Z
+public: virtual long __cdecl CWin32ApplicationView::OnMinSizePreferencesUpdated(struct HWND__ * __ptr64) __ptr64
+IApplicationView.40
+?ApplyOperation@CWin32ApplicationView@@UEAAJPEAUIApplicationViewOperation@@@Z
+public: virtual long __cdecl CWin32ApplicationView::ApplyOperation(struct IApplicationViewOperation * __ptr64) __ptr64
+IApplicationView.41
+?IsTray@CWin32ApplicationView@@UEAAJPEAH@Z
+public: virtual long __cdecl CWin32ApplicationView::IsTray(int * __ptr64) __ptr64
+IApplicationView.42
+?IsInHighZOrderBand@CWin32ApplicationView@@UEAAJPEAH@Z
+public: virtual long __cdecl CWin32ApplicationView::IsInHighZOrderBand(int * __ptr64) __ptr64
+IApplicationView.43
+?IsSplashScreenPresented@CWin32ApplicationView@@UEAAJPEAH@Z
+public: virtual long __cdecl CWin32ApplicationView::IsSplashScreenPresented(int * __ptr64) __ptr64
+IApplicationView.44
+?Flash@CApplicationViewBase@@UEAAJXZ
+public: virtual long __cdecl CApplicationViewBase::Flash(void) __ptr64
+IApplicationView.45
+?GetRootSwitchableOwner@CWin32ApplicationView@@UEAAJPEAPEAUIApplicationView@@@Z
+public: virtual long __cdecl CWin32ApplicationView::GetRootSwitchableOwner(struct IApplicationView * __ptr64 * __ptr64) __ptr64
+IApplicationView.46
+?EnumerateOwnershipTree@CWin32ApplicationView@@UEAAJPEAPEAUIObjectArray@@@Z
+public: virtual long __cdecl CWin32ApplicationView::EnumerateOwnershipTree(struct IObjectArray * __ptr64 * __ptr64) __ptr64
+IApplicationView.47
+?GetEnterpriseId@CApplicationViewBase@@UEAAJPEAPEAG@Z
+public: virtual long __cdecl CApplicationViewBase::GetEnterpriseId(unsigned short * __ptr64 * __ptr64) __ptr64
+IApplicationView.48
+?GetEnterpriseChromePreference@CApplicationViewBase@@UEAAJPEAH@Z
+public: virtual long __cdecl CApplicationViewBase::GetEnterpriseChromePreference(int * __ptr64) __ptr64
+IApplicationView.49
+?IsMirrored@CWin32ApplicationView@@UEAAJPEAH@Z
+public: virtual long __cdecl CWin32ApplicationView::IsMirrored(int * __ptr64) __ptr64
+IApplicationView.50
+?GetFrameworkViewType@CWin32ApplicationView@@UEAAJPEAW4FRAMEWORK_VIEW_TYPE@@@Z
+public: virtual long __cdecl CWin32ApplicationView::GetFrameworkViewType(enum FRAMEWORK_VIEW_TYPE * __ptr64) __ptr64
+IApplicationView.51
+?GetCanTab@CApplicationViewBase@@UEAAJPEAH@Z
+public: virtual long __cdecl CApplicationViewBase::GetCanTab(int * __ptr64) __ptr64
+IApplicationView.52
+?SetCanTab@CApplicationViewBase@@UEAAJH@Z
+public: virtual long __cdecl CApplicationViewBase::SetCanTab(int) __ptr64
+IApplicationView.53
+?GetIsTabbed@CApplicationViewBase@@UEAAJPEAH@Z
+public: virtual long __cdecl CApplicationViewBase::GetIsTabbed(int * __ptr64) __ptr64
+IApplicationView.54
+?SetIsTabbed@CApplicationViewBase@@UEAAJH@Z
+public: virtual long __cdecl CApplicationViewBase::SetIsTabbed(int) __ptr64
+IApplicationView.55
+?RefreshCanTab@CApplicationViewBase@@UEAAJXZ
+public: virtual long __cdecl CApplicationViewBase::RefreshCanTab(void) __ptr64
+IApplicationView.56
+?GetIsOccluded@CWin32ApplicationView@@UEAAJPEAH@Z
+public: virtual long __cdecl CWin32ApplicationView::GetIsOccluded(int * __ptr64) __ptr64
+IApplicationView.57
+?SetIsOccluded@CWin32ApplicationView@@UEAAJH@Z
+public: virtual long __cdecl CWin32ApplicationView::SetIsOccluded(int) __ptr64
+IApplicationView.58
+?UpdateEngagementFlags@CWin32ApplicationView@@UEAAJW4VIEW_ENGAGEMENT_FLAGS@@0@Z
+public: virtual long __cdecl CWin32ApplicationView::UpdateEngagementFlags(enum VIEW_ENGAGEMENT_FLAGS,enum VIEW_ENGAGEMENT_FLAGS) __ptr64
+IApplicationView.59
+?SetForceActiveWindowAppearance@CWin32ApplicationView@@UEAAJH@Z
+public: virtual long __cdecl CWin32ApplicationView::SetForceActiveWindowAppearance(int) __ptr64
+IApplicationView.60
+?GetLastActivationFILETIME@CWin32ApplicationView@@UEAAJPEAU_FILETIME@@@Z
+public: virtual long __cdecl CWin32ApplicationView::GetLastActivationFILETIME(struct _FILETIME * __ptr64) __ptr64
+IApplicationView.61
+?GetPersistingStateName@CWin32ApplicationView@@UEAAJPEAPEAG@Z
+public: virtual long __cdecl CWin32ApplicationView::GetPersistingStateName(unsigned short * __ptr64 * __ptr64) __ptr64
+IApplicationView.62
+?v_SetCloak@CWin32ApplicationView@@EEAAJW4APPLICATION_VIEW_CLOAK_TYPE@@H@Z
+private: virtual long __cdecl CWin32ApplicationView::v_SetCloak(enum APPLICATION_VIEW_CLOAK_TYPE,int) __ptr64
+IApplicationView.63
+?v_GetNativeWindow@CWin32ApplicationView@@EEAAJPEAPEAUHWND__@@@Z
+private: virtual long __cdecl CWin32ApplicationView::v_GetNativeWindow(struct HWND__ * __ptr64 * __ptr64) __ptr64
+IApplicationView.64
+?v_RefreshEnterpriseIdIfNeeded@CWin32ApplicationView@@EEAAJXZ
+private: virtual long __cdecl CWin32ApplicationView::v_RefreshEnterpriseIdIfNeeded(void) __ptr64
+IApplicationView.65
+?v_GetProcessId@CWin32ApplicationView@@EEAAJPEAK@Z
+private: virtual long __cdecl CWin32ApplicationView::v_GetProcessId(unsigned long * __ptr64) __ptr64
+IApplicationView.66
+??_GCWin32ApplicationView@@UEAAPEAXI@Z
+public: virtual void * __ptr64 __cdecl CWin32ApplicationView::`scalar deleting destructor'(unsigned int) __ptr64
+
+IApplicationView
+??_7CWinRTApplicationView@@6BIApplicationView@@@
+const CWinRTApplicationView::`vftable'{for `IApplicationView'}
+length: 576
+IApplicationView.0
+?QueryInterface@?$RuntimeClassImpl@U?$RuntimeClassFlags@$02@WRL@Microsoft@@$00$00$0A@VCApplicationViewBase@@UIWinRTApplicationView@@VFtmBase@23@@Details@WRL@Microsoft@@UEAAJAEBU_GUID@@PEAPEAX@Z
+public: virtual long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<3>,1,1,0,class CApplicationViewBase,struct IWinRTApplicationView,class Microsoft::WRL::FtmBase>::QueryInterface(struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+IApplicationView.1
+?AddRef@?$RuntimeClassImpl@U?$RuntimeClassFlags@$02@WRL@Microsoft@@$00$00$0A@VCApplicationViewBase@@UIWinRTApplicationView@@VFtmBase@23@@Details@WRL@Microsoft@@UEAAKXZ
+public: virtual unsigned long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<3>,1,1,0,class CApplicationViewBase,struct IWinRTApplicationView,class Microsoft::WRL::FtmBase>::AddRef(void) __ptr64
+IApplicationView.2
+?Release@?$RuntimeClassImpl@U?$RuntimeClassFlags@$02@WRL@Microsoft@@$00$00$0A@VCApplicationViewBase@@UIWinRTApplicationView@@VFtmBase@23@@Details@WRL@Microsoft@@UEAAKXZ
+public: virtual unsigned long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<3>,1,1,0,class CApplicationViewBase,struct IWinRTApplicationView,class Microsoft::WRL::FtmBase>::Release(void) __ptr64
+IApplicationView.3
+?GetIids@?$RuntimeClassImpl@U?$RuntimeClassFlags@$02@WRL@Microsoft@@$00$00$0A@VCApplicationViewBase@@UIWinRTApplicationView@@VFtmBase@23@@Details@WRL@Microsoft@@UEAAJPEAKPEAPEAU_GUID@@@Z
+public: virtual long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<3>,1,1,0,class CApplicationViewBase,struct IWinRTApplicationView,class Microsoft::WRL::FtmBase>::GetIids(unsigned long * __ptr64,struct _GUID * __ptr64 * __ptr64) __ptr64
+IApplicationView.4
+?GetRuntimeClassName@?$RuntimeClassImpl@U?$RuntimeClassFlags@$02@WRL@Microsoft@@$00$00$0A@VCWRLObjectWithSite@@UIStartExperienceManager@Experience@Shell@Internal@Windows@@UIImmersiveWindowMessageNotification@@UIClosable@Foundation@9@UIDWMStoryboardListener@@UIInputHostLayoutChanges@@@Details@WRL@Microsoft@@UEAAJPEAPEAUHSTRING__@@@Z
+public: virtual long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<3>,1,1,0,class CWRLObjectWithSite,struct Windows::Internal::Shell::Experience::IStartExperienceManager,struct IImmersiveWindowMessageNotification,struct Windows::Foundation::IClosable,struct IDWMStoryboardListener,struct IInputHostLayoutChanges>::GetRuntimeClassName(struct HSTRING__ * __ptr64 * __ptr64) __ptr64
+IApplicationView.5
+?GetTrustLevel@?$RuntimeClassImpl@U?$RuntimeClassFlags@$02@WRL@Microsoft@@$00$00$0A@UIObjectProvider@@VFtmBase@23@@Details@WRL@Microsoft@@UEAAJPEAW4TrustLevel@@@Z
+public: virtual long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<3>,1,1,0,struct IObjectProvider,class Microsoft::WRL::FtmBase>::GetTrustLevel(enum TrustLevel * __ptr64) __ptr64
+IApplicationView.6
+?SetFocus@CWinRTApplicationView@@UEAAJXZ
+public: virtual long __cdecl CWinRTApplicationView::SetFocus(void) __ptr64
+IApplicationView.7
+?SwitchTo@CWinRTApplicationView@@UEAAJXZ
+public: virtual long __cdecl CWinRTApplicationView::SwitchTo(void) __ptr64
+IApplicationView.8
+?TryInvokeBack@CWinRTApplicationView@@UEAAJPEAUIAsyncCallback@@@Z
+public: virtual long __cdecl CWinRTApplicationView::TryInvokeBack(struct IAsyncCallback * __ptr64) __ptr64
+IApplicationView.9
+?GetThumbnailWindow@CWinRTApplicationView@@UEAAJPEAPEAUHWND__@@@Z
+public: virtual long __cdecl CWinRTApplicationView::GetThumbnailWindow(struct HWND__ * __ptr64 * __ptr64) __ptr64
+IApplicationView.10
+?GetMonitor@CWinRTApplicationView@@UEAAJPEAPEAUIImmersiveMonitor@@@Z
+public: virtual long __cdecl CWinRTApplicationView::GetMonitor(struct IImmersiveMonitor * __ptr64 * __ptr64) __ptr64
+IApplicationView.11
+?GetVisibility@CWinRTApplicationView@@UEAAJPEAH@Z
+public: virtual long __cdecl CWinRTApplicationView::GetVisibility(int * __ptr64) __ptr64
+IApplicationView.12
+?SetCloak@CApplicationViewBase@@UEAAJW4APPLICATION_VIEW_CLOAK_TYPE@@H@Z
+public: virtual long __cdecl CApplicationViewBase::SetCloak(enum APPLICATION_VIEW_CLOAK_TYPE,int) __ptr64
+IApplicationView.13
+?GetPosition@CWinRTApplicationView@@UEAAJAEBU_GUID@@PEAPEAX@Z
+public: virtual long __cdecl CWinRTApplicationView::GetPosition(struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+IApplicationView.14
+?SetPosition@CWinRTApplicationView@@UEAAJPEAUIApplicationViewPosition@@@Z
+public: virtual long __cdecl CWinRTApplicationView::SetPosition(struct IApplicationViewPosition * __ptr64) __ptr64
+IApplicationView.15
+?InsertAfterWindow@CApplicationViewBase@@UEAAJPEAUHWND__@@@Z
+public: virtual long __cdecl CApplicationViewBase::InsertAfterWindow(struct HWND__ * __ptr64) __ptr64
+IApplicationView.16
+?GetExtendedFramePosition@CWinRTApplicationView@@UEAAJPEAUtagRECT@@@Z
+public: virtual long __cdecl CWinRTApplicationView::GetExtendedFramePosition(struct tagRECT * __ptr64) __ptr64
+IApplicationView.17
+?GetAppUserModelId@CWinRTApplicationView@@UEAAJPEAPEAG@Z
+public: virtual long __cdecl CWinRTApplicationView::GetAppUserModelId(unsigned short * __ptr64 * __ptr64) __ptr64
+IApplicationView.18
+?SetAppUserModelId@CWinRTApplicationView@@UEAAJPEBG@Z
+public: virtual long __cdecl CWinRTApplicationView::SetAppUserModelId(unsigned short const * __ptr64) __ptr64
+IApplicationView.19
+?IsEqualByAppUserModelId@CWinRTApplicationView@@UEAAJPEBGPEAH@Z
+public: virtual long __cdecl CWinRTApplicationView::IsEqualByAppUserModelId(unsigned short const * __ptr64,int * __ptr64) __ptr64
+IApplicationView.20
+?GetViewState@CWinRTApplicationView@@UEAAJPEAI@Z
+public: virtual long __cdecl CWinRTApplicationView::GetViewState(unsigned int * __ptr64) __ptr64
+IApplicationView.21
+?SetViewState@CWinRTApplicationView@@UEAAJI@Z
+public: virtual long __cdecl CWinRTApplicationView::SetViewState(unsigned int) __ptr64
+IApplicationView.22
+?GetNeediness@CApplicationViewBase@@UEAAJPEAH@Z
+public: virtual long __cdecl CApplicationViewBase::GetNeediness(int * __ptr64) __ptr64
+IApplicationView.23
+?GetLastActivationTimestamp@CWinRTApplicationView@@UEAAJPEA_K@Z
+public: virtual long __cdecl CWinRTApplicationView::GetLastActivationTimestamp(unsigned __int64 * __ptr64) __ptr64
+IApplicationView.24
+?SetLastActivationTimestamp@CWin32ApplicationView@@UEAAJ_K@Z
+public: virtual long __cdecl CWin32ApplicationView::SetLastActivationTimestamp(unsigned __int64) __ptr64
+IApplicationView.25
+?GetVirtualDesktopId@CApplicationViewBase@@UEAAJPEAU_GUID@@@Z
+public: virtual long __cdecl CApplicationViewBase::GetVirtualDesktopId(struct _GUID * __ptr64) __ptr64
+IApplicationView.26
+?SetVirtualDesktopId@CApplicationViewBase@@UEAAJAEBU_GUID@@@Z
+public: virtual long __cdecl CApplicationViewBase::SetVirtualDesktopId(struct _GUID const & __ptr64) __ptr64
+IApplicationView.27
+?GetShowInSwitchers@CWinRTApplicationView@@UEAAJPEAH@Z
+public: virtual long __cdecl CWinRTApplicationView::GetShowInSwitchers(int * __ptr64) __ptr64
+IApplicationView.28
+?SetShowInSwitchers@CWinRTApplicationView@@UEAAJH@Z
+public: virtual long __cdecl CWinRTApplicationView::SetShowInSwitchers(int) __ptr64
+IApplicationView.29
+?GetScaleFactor@CWinRTApplicationView@@UEAAJPEAI@Z
+public: virtual long __cdecl CWinRTApplicationView::GetScaleFactor(unsigned int * __ptr64) __ptr64
+IApplicationView.30
+?CanReceiveInput@CWinRTApplicationView@@UEAAJPEAH@Z
+public: virtual long __cdecl CWinRTApplicationView::CanReceiveInput(int * __ptr64) __ptr64
+IApplicationView.31
+?GetCompatibilityPolicyType@CApplicationViewBase@@UEAAJPEAW4APPLICATION_VIEW_COMPATIBILITY_POLICY@@@Z
+public: virtual long __cdecl CApplicationViewBase::GetCompatibilityPolicyType(enum APPLICATION_VIEW_COMPATIBILITY_POLICY * __ptr64) __ptr64
+IApplicationView.32
+?SetCompatibilityPolicyType@CApplicationViewBase@@UEAAJW4APPLICATION_VIEW_COMPATIBILITY_POLICY@@@Z
+public: virtual long __cdecl CApplicationViewBase::SetCompatibilityPolicyType(enum APPLICATION_VIEW_COMPATIBILITY_POLICY) __ptr64
+IApplicationView.33
+?GetPositionerPriority@CApplicationViewBase@@UEAAJPEAPEAUIShellPositionerPriority@@@Z
+public: virtual long __cdecl CApplicationViewBase::GetPositionerPriority(struct IShellPositionerPriority * __ptr64 * __ptr64) __ptr64
+IApplicationView.34
+?SetPositionerPriority@CApplicationViewBase@@UEAAJPEAUIShellPositionerPriority@@@Z
+public: virtual long __cdecl CApplicationViewBase::SetPositionerPriority(struct IShellPositionerPriority * __ptr64) __ptr64
+IApplicationView.35
+?GetSizeConstraints@CApplicationViewBase@@UEAAJPEAUIImmersiveMonitor@@PEAUtagSIZE@@1@Z
+public: virtual long __cdecl CApplicationViewBase::GetSizeConstraints(struct IImmersiveMonitor * __ptr64,struct tagSIZE * __ptr64,struct tagSIZE * __ptr64) __ptr64
+IApplicationView.36
+?GetSizeConstraintsForDpi@CWinRTApplicationView@@UEAAJIPEAUtagSIZE@@0@Z
+public: virtual long __cdecl CWinRTApplicationView::GetSizeConstraintsForDpi(unsigned int,struct tagSIZE * __ptr64,struct tagSIZE * __ptr64) __ptr64
+IApplicationView.37
+?SetSizeConstraintsForDpi@CWinRTApplicationView@@UEAAJPEBIPEBUtagSIZE@@1@Z
+public: virtual long __cdecl CWinRTApplicationView::SetSizeConstraintsForDpi(unsigned int const * __ptr64,struct tagSIZE const * __ptr64,struct tagSIZE const * __ptr64) __ptr64
+IApplicationView.38
+?QuerySizeConstraintsFromApp@CWinRTApplicationView@@UEAAJXZ
+public: virtual long __cdecl CWinRTApplicationView::QuerySizeConstraintsFromApp(void) __ptr64
+IApplicationView.39
+?OnMinSizePreferencesUpdated@CWinRTApplicationView@@UEAAJPEAUHWND__@@@Z
+public: virtual long __cdecl CWinRTApplicationView::OnMinSizePreferencesUpdated(struct HWND__ * __ptr64) __ptr64
+IApplicationView.40
+?ApplyOperation@CWinRTApplicationView@@UEAAJPEAUIApplicationViewOperation@@@Z
+public: virtual long __cdecl CWinRTApplicationView::ApplyOperation(struct IApplicationViewOperation * __ptr64) __ptr64
+IApplicationView.41
+?IsTray@CWinRTApplicationView@@UEAAJPEAH@Z
+public: virtual long __cdecl CWinRTApplicationView::IsTray(int * __ptr64) __ptr64
+IApplicationView.42
+?IsInHighZOrderBand@CWinRTApplicationView@@UEAAJPEAH@Z
+public: virtual long __cdecl CWinRTApplicationView::IsInHighZOrderBand(int * __ptr64) __ptr64
+IApplicationView.43
+?IsSplashScreenPresented@CWinRTApplicationView@@UEAAJPEAH@Z
+public: virtual long __cdecl CWinRTApplicationView::IsSplashScreenPresented(int * __ptr64) __ptr64
+IApplicationView.44
+?Flash@CApplicationViewBase@@UEAAJXZ
+public: virtual long __cdecl CApplicationViewBase::Flash(void) __ptr64
+IApplicationView.45
+?GetRootSwitchableOwner@CWinRTApplicationView@@UEAAJPEAPEAUIApplicationView@@@Z
+public: virtual long __cdecl CWinRTApplicationView::GetRootSwitchableOwner(struct IApplicationView * __ptr64 * __ptr64) __ptr64
+IApplicationView.46
+?EnumerateOwnershipTree@CWinRTApplicationView@@UEAAJPEAPEAUIObjectArray@@@Z
+public: virtual long __cdecl CWinRTApplicationView::EnumerateOwnershipTree(struct IObjectArray * __ptr64 * __ptr64) __ptr64
+IApplicationView.47
+?GetEnterpriseId@CApplicationViewBase@@UEAAJPEAPEAG@Z
+public: virtual long __cdecl CApplicationViewBase::GetEnterpriseId(unsigned short * __ptr64 * __ptr64) __ptr64
+IApplicationView.48
+?GetEnterpriseChromePreference@CApplicationViewBase@@UEAAJPEAH@Z
+public: virtual long __cdecl CApplicationViewBase::GetEnterpriseChromePreference(int * __ptr64) __ptr64
+IApplicationView.49
+?IsMirrored@CWinRTApplicationView@@UEAAJPEAH@Z
+public: virtual long __cdecl CWinRTApplicationView::IsMirrored(int * __ptr64) __ptr64
+IApplicationView.50
+?GetFrameworkViewType@CWinRTApplicationView@@UEAAJPEAW4FRAMEWORK_VIEW_TYPE@@@Z
+public: virtual long __cdecl CWinRTApplicationView::GetFrameworkViewType(enum FRAMEWORK_VIEW_TYPE * __ptr64) __ptr64
+IApplicationView.51
+?GetCanTab@CApplicationViewBase@@UEAAJPEAH@Z
+public: virtual long __cdecl CApplicationViewBase::GetCanTab(int * __ptr64) __ptr64
+IApplicationView.52
+?SetCanTab@CApplicationViewBase@@UEAAJH@Z
+public: virtual long __cdecl CApplicationViewBase::SetCanTab(int) __ptr64
+IApplicationView.53
+?GetIsTabbed@CApplicationViewBase@@UEAAJPEAH@Z
+public: virtual long __cdecl CApplicationViewBase::GetIsTabbed(int * __ptr64) __ptr64
+IApplicationView.54
+?SetIsTabbed@CApplicationViewBase@@UEAAJH@Z
+public: virtual long __cdecl CApplicationViewBase::SetIsTabbed(int) __ptr64
+IApplicationView.55
+?RefreshCanTab@CApplicationViewBase@@UEAAJXZ
+public: virtual long __cdecl CApplicationViewBase::RefreshCanTab(void) __ptr64
+IApplicationView.56
+?GetIsOccluded@CWinRTApplicationView@@UEAAJPEAH@Z
+public: virtual long __cdecl CWinRTApplicationView::GetIsOccluded(int * __ptr64) __ptr64
+IApplicationView.57
+?SetIsOccluded@CWinRTApplicationView@@UEAAJH@Z
+public: virtual long __cdecl CWinRTApplicationView::SetIsOccluded(int) __ptr64
+IApplicationView.58
+?UpdateEngagementFlags@CWinRTApplicationView@@UEAAJW4VIEW_ENGAGEMENT_FLAGS@@0@Z
+public: virtual long __cdecl CWinRTApplicationView::UpdateEngagementFlags(enum VIEW_ENGAGEMENT_FLAGS,enum VIEW_ENGAGEMENT_FLAGS) __ptr64
+IApplicationView.59
+?SetForceActiveWindowAppearance@CWinRTApplicationView@@UEAAJH@Z
+public: virtual long __cdecl CWinRTApplicationView::SetForceActiveWindowAppearance(int) __ptr64
+IApplicationView.60
+?GetLastActivationFILETIME@CWinRTApplicationView@@UEAAJPEAU_FILETIME@@@Z
+public: virtual long __cdecl CWinRTApplicationView::GetLastActivationFILETIME(struct _FILETIME * __ptr64) __ptr64
+IApplicationView.61
+?GetPersistingStateName@CWinRTApplicationView@@UEAAJPEAPEAG@Z
+public: virtual long __cdecl CWinRTApplicationView::GetPersistingStateName(unsigned short * __ptr64 * __ptr64) __ptr64
+IApplicationView.62
+?v_SetCloak@CWinRTApplicationView@@EEAAJW4APPLICATION_VIEW_CLOAK_TYPE@@H@Z
+private: virtual long __cdecl CWinRTApplicationView::v_SetCloak(enum APPLICATION_VIEW_CLOAK_TYPE,int) __ptr64
+IApplicationView.63
+?v_GetNativeWindow@CWinRTApplicationView@@EEAAJPEAPEAUHWND__@@@Z
+private: virtual long __cdecl CWinRTApplicationView::v_GetNativeWindow(struct HWND__ * __ptr64 * __ptr64) __ptr64
+IApplicationView.64
+?v_RefreshEnterpriseIdIfNeeded@CWinRTApplicationView@@EEAAJXZ
+private: virtual long __cdecl CWinRTApplicationView::v_RefreshEnterpriseIdIfNeeded(void) __ptr64
+IApplicationView.65
+?v_GetProcessId@CWinRTApplicationView@@EEAAJPEAK@Z
+private: virtual long __cdecl CWinRTApplicationView::v_GetProcessId(unsigned long * __ptr64) __ptr64
+IApplicationView.66
+??_ECWinRTApplicationView@@UEAAPEAXI@Z
+public: virtual void * __ptr64 __cdecl CWinRTApplicationView::`vector deleting destructor'(unsigned int) __ptr64
+IApplicationView.67
+?QueryInterface@?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$0A@UIComPoolTask@Internal@Windows@@@Details@WRL@Microsoft@@UEAAJAEBU_GUID@@PEAPEAX@Z
+public: virtual long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<2>,1,0,0,struct Windows::Internal::IComPoolTask>::QueryInterface(struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64
+IApplicationView.68
+?AddRef@?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$0A@U?$ITypedEventHandler@PEAVShellExperienceDispatcher@Experience@Shell@Internal@Windows@@PEAUIShellExperienceViewStateChangedEventArgs@2345@@Foundation@Windows@@@Details@WRL@Microsoft@@UEAAKXZ
+public: virtual unsigned long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<2>,1,0,0,struct Windows::Foundation::ITypedEventHandler<class Windows::Internal::Shell::Experience::ShellExperienceDispatcher * __ptr64,struct Windows::Internal::Shell::Experience::IShellExperienceViewStateChangedEventArgs * __ptr64> >::AddRef(void) __ptr64
+IApplicationView.69
+?Release@?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$0A@UIComPoolTask@Internal@Windows@@@Details@WRL@Microsoft@@UEAAKXZ
+public: virtual unsigned long __cdecl Microsoft::WRL::Details::RuntimeClassImpl<struct Microsoft::WRL::RuntimeClassFlags<2>,1,0,0,struct Windows::Internal::IComPoolTask>::Release(void) __ptr64
+

@@ -1,0 +1,45 @@
+IID_IVirtualDesktop
+    IVirtualDesktopManagerInternal::GetDesktops() -> IObjectArray -> IObjectArray::GetAt(idx,IID_IVirtualDesktop,**ppv) -> IVirtualDesktop
+IID_IVirtualDesktopManagerInternal
+    ComObjCreate("{C2F03A33-21F5-47FA-B4BB-156362A2F239}", "{6D5140C1-7436-11CE-8034-00AA006009FA}") -> CLSID_ImmersiveShell,IServiceProvider -> IServiceProvider::QueryService("{C5E0CDCA-7B6E-41B2-9FC4-D93975CC467B}",IID_IVirtualDesktopManagerInternal,**ppv) -> IVirtualDesktopManagerInternal
+
+#idx# IVirtualDesktopManagerInternal::MoveViewToDesktop ??Signature??
+    IVirtualDesktopManager::MoveWindowToDesktop() could be replaced by this
+    could probably be replaced by IApplicationView::SetVirtualDesktopId(guid)
+        I haven't been able to make IApplicationView::SetVirtualDesktopId work, IApplicationView::GetVirtualDesktopId works though
+    IVirtualDesktopManager::GetWindowDesktopId() could probably replaced by IApplicationViewCollection::GetViewForHwnd(HWND,**IApplicationView) -> IApplicationView -> IApplicationView::GetVirtualDesktopId() -> guid
+#idx# IVirtualDesktopManagerInternal::CanViewMoveDesktops ??Signature??
+    this never helped us, as a filter, I think?
+#idx# IVirtualDesktopManagerInternal::GetCurrentDesktop ??Signature??
+#idx# IVirtualDesktopManagerInternal::GetDesktops ??Signature??
+#idx# IVirtualDesktopManagerInternal::CreateDesktop ??Signature??
+#idx# IVirtualDesktopManagerInternal::RemoveDesktop ??Signature??
+#idx# IVirtualDesktopManagerInternal::FindDesktop ??Signature??
+    IVirtualDesktopManagerInternal::GetDesktops() -> IObjectArray -> IObjectArray::GetAt(idx,IID_IVirtualDesktop,**ppv) -> IVirtualDesktop -> IVirtualDesktop::GetId() -> guid == guid_looking_for
+
+#idx# IVirtualDesktop::GetId ??Signature??
+
+probably doesn't even exist #idx# IVirtualDesktopNotification::VirtualDesktopNameChanged ??Signature??
+probably doesn't even exist #idx# IVirtualDesktopManagerInternal::SetDesktopName ??Signature??
+probably doesn't even exist #idx# IVirtualDesktop::GetName ??Signature??
+
+really probably doesn't even exist #idx# IVirtualDesktopNotification::VirtualDesktopWallpaperChanged ??Signature??
+really probably doesn't even exist #idx# IVirtualDesktopManagerInternal::SetDesktopWallpaper ??Signature??
+really probably doesn't even exist #idx# IVirtualDesktop::GetWallpaper ??Signature??
+
+
+~~guid_to_desktopNum~~
+hwnd_to_desktopNum
+
+IID_IVirtualDesktopNotification
+    IVirtualDesktopNotification::QueryInterface (return `this` only when IID_IVirtualDesktopNotification or IID_IUnknown)
+
+#idx# IVirtualDesktopNotification::VirtualDesktopCreated ??Signature??
+#idx# IVirtualDesktopNotification::VirtualDesktopDestroyBegin ??Signature??
+#idx# IVirtualDesktopNotification::VirtualDesktopDestroyFailed ??Signature??
+#idx# IVirtualDesktopNotification::VirtualDesktopDestroyed ??Signature??
+#idx# IVirtualDesktopNotification::ViewVirtualDesktopChanged ??Signature??
+#idx# IVirtualDesktopNotification::CurrentVirtualDesktopChanged ??Signature??
+
+IVirtualDesktopNotification.methods_count
+    No_Op() the rest
