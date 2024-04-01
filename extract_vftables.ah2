@@ -157,7 +157,7 @@ extract_IID(dll_paths,pdb_paths) {
             }
             if (o.undecoratedName ~= "^const CVirtualDesktopNotificationsDerived::``vftable'$") {
                 vftable_IVirtualDesktopNotificationService.Push(o)
-            }            
+            }
         }
 
         for a in IIDs {

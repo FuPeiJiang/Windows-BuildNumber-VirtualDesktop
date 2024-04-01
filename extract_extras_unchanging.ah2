@@ -137,7 +137,7 @@ extract_IID(dll_paths,pdb_paths) {
             if (o.undecoratedName ~= "const CWinRTApplicationView::``vftable'{for ``IApplicationView'}") {
                 vftable_IApplicationView.Push(o)
             }
-            
+
         }
 
         for a in IIDs {

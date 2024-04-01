@@ -12,6 +12,7 @@ IID_IVirtualDesktopManagerInternal
     this never helped us, as a filter, I think?
 #idx# IVirtualDesktopManagerInternal::GetCurrentDesktop ??Signature??
 #idx# IVirtualDesktopManagerInternal::GetDesktops ??Signature??
+#idx# IVirtualDesktopManagerInternal::SwitchDesktop ??Signature?? (for VD.animation_on:=false)
 #idx# IVirtualDesktopManagerInternal::CreateDesktop ??Signature??
 #idx# IVirtualDesktopManagerInternal::RemoveDesktop ??Signature??
 #idx# IVirtualDesktopManagerInternal::FindDesktop ??Signature??

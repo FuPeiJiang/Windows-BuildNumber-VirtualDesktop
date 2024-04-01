@@ -8,6 +8,7 @@ if (buildNumber < 20348) {
     idx_MoveViewToDesktop:=4 ;DllCall(ptr_MoveViewToDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IApplicationView,"Ptr",IVirtualDesktop)
     idx_GetCurrentDesktop:=6 ;DllCall(ptr_GetCurrentDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr*",&IVirtualDesktop:=0)
     idx_GetDesktops:=7 ;DllCall(ptr_GetDesktops,"Ptr",IVirtualDesktopManagerInternal,"Ptr*",&IObjectArray:=0)
+    idx_SwitchDesktop:=9 ;DllCall(ptr_SwitchDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IVirtualDesktop)
     idx_CreateDesktop:=10 ;DllCall(ptr_CreateDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr*",&IVirtualDesktop:=0)
     idx_RemoveDesktop:=11 ;DllCall(ptr_RemoveDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IVirtualDesktop,"Ptr",IVirtualDesktop_fallback)
 
@@ -39,6 +40,7 @@ if (buildNumber < 20348) {
     idx_MoveViewToDesktop:=4 ;DllCall(ptr_MoveViewToDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IApplicationView,"Ptr",IVirtualDesktop)
     idx_GetCurrentDesktop:=6 ;DllCall(ptr_GetCurrentDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",HMONITOR,"Ptr*",&IVirtualDesktop:=0)
     idx_GetDesktops:=7 ;DllCall(ptr_GetDesktops,"Ptr",IVirtualDesktopManagerInternal,"Ptr",HMONITOR,"Ptr*",&IObjectArray:=0)
+    idx_SwitchDesktop:=9 ;DllCall(ptr_SwitchDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",HMONITOR,"Ptr",IVirtualDesktop)
     idx_CreateDesktop:=10 ;DllCall(ptr_CreateDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",HMONITOR,"Ptr*",&IVirtualDesktop:=0)
     idx_RemoveDesktop:=11 ;DllCall(ptr_RemoveDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IVirtualDesktop,"Ptr",IVirtualDesktop_fallback)
 
@@ -70,6 +72,7 @@ if (buildNumber < 20348) {
     idx_MoveViewToDesktop:=4 ;DllCall(ptr_MoveViewToDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IApplicationView,"Ptr",IVirtualDesktop)
     idx_GetCurrentDesktop:=6 ;DllCall(ptr_GetCurrentDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",HMONITOR,"Ptr*",&IVirtualDesktop:=0)
     idx_GetDesktops:=7 ;DllCall(ptr_GetDesktops,"Ptr",IVirtualDesktopManagerInternal,"Ptr",HMONITOR,"Ptr*",&IObjectArray:=0)
+    idx_SwitchDesktop:=9 ;DllCall(ptr_SwitchDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",HMONITOR,"Ptr",IVirtualDesktop)
     idx_CreateDesktop:=10 ;DllCall(ptr_CreateDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",HMONITOR,"Ptr*",&IVirtualDesktop:=0)
     idx_RemoveDesktop:=12 ;DllCall(ptr_RemoveDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IVirtualDesktop,"Ptr",IVirtualDesktop_fallback)
 
@@ -103,6 +106,7 @@ if (buildNumber < 20348) {
     idx_MoveViewToDesktop:=4 ;DllCall(ptr_MoveViewToDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IApplicationView,"Ptr",IVirtualDesktop)
     idx_GetCurrentDesktop:=6 ;DllCall(ptr_GetCurrentDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",HMONITOR,"Ptr*",&IVirtualDesktop:=0)
     idx_GetDesktops:=8 ;DllCall(ptr_GetDesktops,"Ptr",IVirtualDesktopManagerInternal,"Ptr",HMONITOR,"Ptr*",&IObjectArray:=0)
+    idx_SwitchDesktop:=10 ;DllCall(ptr_SwitchDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",HMONITOR,"Ptr",IVirtualDesktop)
     idx_CreateDesktop:=11 ;DllCall(ptr_CreateDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",HMONITOR,"Ptr*",&IVirtualDesktop:=0)
     idx_RemoveDesktop:=13 ;DllCall(ptr_RemoveDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IVirtualDesktop,"Ptr",IVirtualDesktop_fallback)
 
@@ -134,6 +138,7 @@ if (buildNumber < 20348) {
     idx_MoveViewToDesktop:=4 ;DllCall(ptr_MoveViewToDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IApplicationView,"Ptr",IVirtualDesktop)
     idx_GetCurrentDesktop:=6 ;DllCall(ptr_GetCurrentDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr*",&IVirtualDesktop:=0)
     idx_GetDesktops:=7 ;DllCall(ptr_GetDesktops,"Ptr",IVirtualDesktopManagerInternal,"Ptr*",&IObjectArray:=0)
+    idx_SwitchDesktop:=9 ;DllCall(ptr_SwitchDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IVirtualDesktop)
     idx_CreateDesktop:=10 ;DllCall(ptr_CreateDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr*",&IVirtualDesktop:=0)
     idx_RemoveDesktop:=12 ;DllCall(ptr_RemoveDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IVirtualDesktop,"Ptr",IVirtualDesktop_fallback)
 
@@ -166,6 +171,7 @@ if (buildNumber < 20348) {
     idx_MoveViewToDesktop:=4 ;DllCall(ptr_MoveViewToDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IApplicationView,"Ptr",IVirtualDesktop)
     idx_GetCurrentDesktop:=6 ;DllCall(ptr_GetCurrentDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr*",&IVirtualDesktop:=0)
     idx_GetDesktops:=7 ;DllCall(ptr_GetDesktops,"Ptr",IVirtualDesktopManagerInternal,"Ptr*",&IObjectArray:=0)
+    idx_SwitchDesktop:=9 ;DllCall(ptr_SwitchDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IVirtualDesktop)
     idx_CreateDesktop:=10 ;DllCall(ptr_CreateDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr*",&IVirtualDesktop:=0)
     idx_RemoveDesktop:=12 ;DllCall(ptr_RemoveDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IVirtualDesktop,"Ptr",IVirtualDesktop_fallback)
 
