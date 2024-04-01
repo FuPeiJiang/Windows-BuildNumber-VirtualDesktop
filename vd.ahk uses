@@ -17,6 +17,8 @@ IID_IVirtualDesktopManagerInternal
 #idx# IVirtualDesktopManagerInternal::RemoveDesktop ??Signature??
 #idx# IVirtualDesktopManagerInternal::FindDesktop ??Signature??
     IVirtualDesktopManagerInternal::GetDesktops() -> IObjectArray -> IObjectArray::GetAt(idx,IID_IVirtualDesktop,**ppv) -> IVirtualDesktop -> IVirtualDesktop::GetId() -> guid == guid_looking_for
+#idx# IVirtualDesktopManagerInternal2::SwitchDesktopWithAnimation ??Signature??
+    the use of IID_IVirtualDesktopManagerInternal2 instead of IID_IVirtualDesktopManagerInternal is needed to support SwitchDesktopWithAnimation (for animation on win11, `SetForegroundWindow(HWND)` method doesn't provide an animation in windows 11)
 
 #idx# IVirtualDesktop::GetId ??Signature??
 

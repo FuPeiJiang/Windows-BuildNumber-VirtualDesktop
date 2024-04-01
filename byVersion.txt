@@ -11,6 +11,7 @@ if (buildNumber < 20348) {
     idx_SwitchDesktop:=9 ;DllCall(ptr_SwitchDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IVirtualDesktop)
     idx_CreateDesktop:=10 ;DllCall(ptr_CreateDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr*",&IVirtualDesktop:=0)
     idx_RemoveDesktop:=11 ;DllCall(ptr_RemoveDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IVirtualDesktop,"Ptr",IVirtualDesktop_fallback)
+    idx_SwitchDesktopWithAnimation:=-1
 
     idx_GetId:=4 ;DllCall(ptr_GetId,"Ptr",IVirtualDesktop,"Ptr",guid_buf)
 
@@ -43,6 +44,7 @@ if (buildNumber < 20348) {
     idx_SwitchDesktop:=9 ;DllCall(ptr_SwitchDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",HMONITOR,"Ptr",IVirtualDesktop)
     idx_CreateDesktop:=10 ;DllCall(ptr_CreateDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",HMONITOR,"Ptr*",&IVirtualDesktop:=0)
     idx_RemoveDesktop:=11 ;DllCall(ptr_RemoveDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IVirtualDesktop,"Ptr",IVirtualDesktop_fallback)
+    idx_SwitchDesktopWithAnimation:=-1
 
     idx_GetId:=4 ;DllCall(ptr_GetId,"Ptr",IVirtualDesktop,"Ptr",guid_buf)
 
@@ -75,6 +77,7 @@ if (buildNumber < 20348) {
     idx_SwitchDesktop:=9 ;DllCall(ptr_SwitchDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",HMONITOR,"Ptr",IVirtualDesktop)
     idx_CreateDesktop:=10 ;DllCall(ptr_CreateDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",HMONITOR,"Ptr*",&IVirtualDesktop:=0)
     idx_RemoveDesktop:=12 ;DllCall(ptr_RemoveDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IVirtualDesktop,"Ptr",IVirtualDesktop_fallback)
+    idx_SwitchDesktopWithAnimation:=-1
 
     idx_GetId:=4 ;DllCall(ptr_GetId,"Ptr",IVirtualDesktop,"Ptr",guid_buf)
 
@@ -109,6 +112,7 @@ if (buildNumber < 20348) {
     idx_SwitchDesktop:=10 ;DllCall(ptr_SwitchDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",HMONITOR,"Ptr",IVirtualDesktop)
     idx_CreateDesktop:=11 ;DllCall(ptr_CreateDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",HMONITOR,"Ptr*",&IVirtualDesktop:=0)
     idx_RemoveDesktop:=13 ;DllCall(ptr_RemoveDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IVirtualDesktop,"Ptr",IVirtualDesktop_fallback)
+    idx_SwitchDesktopWithAnimation:=-1
 
     idx_GetId:=4 ;DllCall(ptr_GetId,"Ptr",IVirtualDesktop,"Ptr",guid_buf)
 
@@ -131,7 +135,7 @@ if (buildNumber < 20348) {
 } else if (buildNumber.revisionNumber < 22631.3085) {
     ;from 22621.2215
     IID_IVirtualDesktopManagerInternal:="{4970ba3d-fd4e-4647-bea3-d89076ef4b9c}"
-    IID_IVirtualDesktop:="{3f07f4be-b107-441a-af0f-39d82529072c}"
+    IID_IVirtualDesktop:="{a3175f2d-239c-4bd2-8aa0-eeba8b0b138e}"
 
     IID_IVirtualDesktopNotification:="{b287fa1c-7771-471a-a2df-9b6b21f0d675}"
 
@@ -141,6 +145,7 @@ if (buildNumber < 20348) {
     idx_SwitchDesktop:=9 ;DllCall(ptr_SwitchDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IVirtualDesktop)
     idx_CreateDesktop:=10 ;DllCall(ptr_CreateDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr*",&IVirtualDesktop:=0)
     idx_RemoveDesktop:=12 ;DllCall(ptr_RemoveDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IVirtualDesktop,"Ptr",IVirtualDesktop_fallback)
+    idx_SwitchDesktopWithAnimation:=21 ;DllCall(ptr_SwitchDesktopWithAnimation,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IVirtualDesktop)
 
     idx_GetId:=4 ;DllCall(ptr_GetId,"Ptr",IVirtualDesktop,"Ptr",guid_buf)
 
@@ -162,8 +167,7 @@ if (buildNumber < 20348) {
     IVirtualDesktopNotification.methods_count:=14
 } else {
     ;from 22631.3085
-    ;the only difference with the above is IID_IVirtualDesktopNotification
-    IID_IVirtualDesktopManagerInternal:="{4970ba3d-fd4e-4647-bea3-d89076ef4b9c}"
+    IID_IVirtualDesktopManagerInternal:="{53f5ca0b-158f-4124-900c-057158060b27}"
     IID_IVirtualDesktop:="{3f07f4be-b107-441a-af0f-39d82529072c}"
 
     IID_IVirtualDesktopNotification:="{b9e5e94d-233e-49ab-af5c-2b4541c3aade}"
@@ -174,6 +178,7 @@ if (buildNumber < 20348) {
     idx_SwitchDesktop:=9 ;DllCall(ptr_SwitchDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IVirtualDesktop)
     idx_CreateDesktop:=10 ;DllCall(ptr_CreateDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr*",&IVirtualDesktop:=0)
     idx_RemoveDesktop:=12 ;DllCall(ptr_RemoveDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IVirtualDesktop,"Ptr",IVirtualDesktop_fallback)
+    idx_SwitchDesktopWithAnimation:=21 ;DllCall(ptr_SwitchDesktopWithAnimation,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IVirtualDesktop)
 
     idx_GetId:=4 ;DllCall(ptr_GetId,"Ptr",IVirtualDesktop,"Ptr",guid_buf)
 
