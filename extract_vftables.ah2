@@ -223,9 +223,10 @@ extract_IID_from_same_folder(folderName) {
 ;A_Clipboard:=extract_IID_from_same_folder(A_LineFile "\..\Windows Server 2022 - 20348.2227")
 
 
-A_Clipboard:=extract_IID_from_same_folder(A_LineFile "\..\22000.51")
+;A_Clipboard:=extract_IID_from_same_folder(A_LineFile "\..\22000.51")
 ;A_Clipboard:=extract_IID_from_same_folder(A_LineFile "\..\22483.1011")
 ;A_Clipboard:=extract_IID_from_same_folder(A_LineFile "\..\22621.1778")
 ;A_Clipboard:=extract_IID_from_same_folder(A_LineFile "\..\22621.2215")
 ;A_Clipboard:=extract_IID_from_same_folder(A_LineFile "\..\23H2-22631.2715")
 ;A_Clipboard:=extract_IID_from_same_folder(A_LineFile "\..\22631.3085")
+A_Clipboard:=extract_IID_from_same_folder(A_LineFile "\..\26100.863")

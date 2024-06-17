@@ -165,7 +165,7 @@ if (buildNumber < 20348) {
     idx_CurrentVirtualDesktopChanged:=10 ;params (IVirtualDesktop_old, IVirtualDesktop_new)
 
     IVirtualDesktopNotification.methods_count:=14
-} else {
+} else if (buildNumber < 26100) {
     ;from 22631.3085
     IID_IVirtualDesktopManagerInternal:="{53f5ca0b-158f-4124-900c-057158060b27}"
     IID_IVirtualDesktop:="{3f07f4be-b107-441a-af0f-39d82529072c}"
@@ -188,6 +188,39 @@ if (buildNumber < 20348) {
 
     idx_VirtualDesktopWallpaperChanged:=11 ;params (IVirtualDesktop, HSTRING)
     idx_SetDesktopWallpaper:=16 ;DllCall(ptr_SetDesktopWallpaper,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IVirtualDesktop,"Ptr",HSTRING)
+    idx_GetWallpaper:=6 ;DllCall(ptr_GetWallpaper,"Ptr",IVirtualDesktop,"Ptr*",HSTRING)
+
+    idx_VirtualDesktopCreated:=3 ;params (IVirtualDesktop)
+    idx_VirtualDesktopDestroyBegin:=4 ;params (IVirtualDesktop, IVirtualDesktop_fallback)
+    idx_VirtualDesktopDestroyFailed:=5 ;params (IVirtualDesktop, IVirtualDesktop_fallback)
+    idx_VirtualDesktopDestroyed:=6 ;params (IVirtualDesktop, IVirtualDesktop_fallback)
+    idx_ViewVirtualDesktopChanged:=9 ;params (IApplicationView)
+    idx_CurrentVirtualDesktopChanged:=10 ;params (IVirtualDesktop_old, IVirtualDesktop_new)
+
+    IVirtualDesktopNotification.methods_count:=14
+} else {
+    ;from 26100.863
+    IID_IVirtualDesktopManagerInternal:="{53f5ca0b-158f-4124-900c-057158060b27}"
+    IID_IVirtualDesktop:="{3f07f4be-b107-441a-af0f-39d82529072c}"
+
+    IID_IVirtualDesktopNotification:="{b9e5e94d-233e-49ab-af5c-2b4541c3aade}"
+
+    idx_MoveViewToDesktop:=4 ;DllCall(ptr_MoveViewToDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IApplicationView,"Ptr",IVirtualDesktop)
+    idx_GetCurrentDesktop:=6 ;DllCall(ptr_GetCurrentDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr*",&IVirtualDesktop:=0)
+    idx_GetDesktops:=7 ;DllCall(ptr_GetDesktops,"Ptr",IVirtualDesktopManagerInternal,"Ptr*",&IObjectArray:=0)
+    idx_SwitchDesktop:=9 ;DllCall(ptr_SwitchDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IVirtualDesktop)
+    idx_CreateDesktop:=11 ;DllCall(ptr_CreateDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr*",&IVirtualDesktop:=0)
+    idx_RemoveDesktop:=13 ;DllCall(ptr_RemoveDesktop,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IVirtualDesktop,"Ptr",IVirtualDesktop_fallback)
+    idx_SwitchDesktopWithAnimation:=22 ;DllCall(ptr_SwitchDesktopWithAnimation,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IVirtualDesktop)
+
+    idx_GetId:=4 ;DllCall(ptr_GetId,"Ptr",IVirtualDesktop,"Ptr",guid_buf)
+
+    idx_VirtualDesktopNameChanged:=8 ;params (IVirtualDesktop, HSTRING)
+    idx_SetDesktopName:=16 ;DllCall(ptr_SetDesktopName,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IVirtualDesktop,"Ptr",HSTRING)
+    idx_GetName:=5 ;DllCall(ptr_GetName,"Ptr",IVirtualDesktop,"Ptr*",HSTRING)
+
+    idx_VirtualDesktopWallpaperChanged:=11 ;params (IVirtualDesktop, HSTRING)
+    idx_SetDesktopWallpaper:=17 ;DllCall(ptr_SetDesktopWallpaper,"Ptr",IVirtualDesktopManagerInternal,"Ptr",IVirtualDesktop,"Ptr",HSTRING)
     idx_GetWallpaper:=6 ;DllCall(ptr_GetWallpaper,"Ptr",IVirtualDesktop,"Ptr*",HSTRING)
 
     idx_VirtualDesktopCreated:=3 ;params (IVirtualDesktop)
