@@ -167,6 +167,7 @@ if (buildNumber < 20348) {
     IVirtualDesktopNotification.methods_count:=14
 } else if (buildNumber < 26100) {
     ;from 22631.3085
+    ;the only difference with the above is IID_IVirtualDesktopNotification
     IID_IVirtualDesktopManagerInternal:="{53f5ca0b-158f-4124-900c-057158060b27}"
     IID_IVirtualDesktop:="{3f07f4be-b107-441a-af0f-39d82529072c}"
 

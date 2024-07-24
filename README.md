@@ -12,6 +12,7 @@ if (buildNumber < 20348) {
 } else if (buildNumber < 22483) { ;22483.1000 to be more precise
 } else if (buildNumber.revisionNumber < 22621.2215) {
 } else if (buildNumber.revisionNumber < 22631.3085) {
+} else if (buildNumber < 26100) {
 } else {
 }
 ```
@@ -28,9 +29,11 @@ if (buildNumber < 20348) {
     ;yeah yeah, IID are the same as above, but vftable differs
 } else if (buildNumber.revisionNumber < 22631.3085) {
     ;from 22621.2215
-} else {
+} else if (buildNumber < 26100) {
     ;from 22631.3085
     ;the only difference with the above is IID_IVirtualDesktopNotification
+} else {
+    ;from 26100.863
 }
 ```
 
